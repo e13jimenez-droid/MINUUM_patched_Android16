@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MinuumAppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="accent_color">@color/accent</item>
+    </style>
+    <style name="LanguageDownloaderListItem">
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+    </style>
+    <style name="LanguageDownloaderListTitle">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:layout_marginLeft">7.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+    </style>
+</resources>

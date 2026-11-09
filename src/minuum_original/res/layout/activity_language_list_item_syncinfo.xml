@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LanguageDownloaderListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:id="@id/languagename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_name_title" />
+            <TextView android:id="@id/subtext" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_pack_not_installed" style="@android:style/TextAppearance.Small" />
+            <ProgressBar android:id="@id/downloadprogress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+        <Button android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/button_update" android:background="@drawable/language_button_update" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/download_language_tap_to_update" android:onClick="onUpdateClicked" />
+        <Button android:textSize="12.0sp" android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/language_pack_download_cancel" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/current_layout" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/current_layout" android:drawableLeft="@drawable/language_download_icon_layout" android:drawablePadding="8.0dip" android:layout_weight="1.0" android:lineSpacingMultiplier="1.2" />
+        <ImageView android:gravity="center" android:id="@id/language_uninstall" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/language_uninstall_selector" />
+    </LinearLayout>
+    <View android:id="@id/thin_line" android:layout_marginTop="4.0dip" style="@style/LightThinLine" />
+</LinearLayout>

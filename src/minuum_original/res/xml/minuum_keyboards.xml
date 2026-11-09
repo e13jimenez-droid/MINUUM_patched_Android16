@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MinuumKeyboards xmlns="com.whirlscape.minuum">
+    <GlyphDefs id="default">
+        <GlyphDef v="a">
+            <Peripheral v="à" />
+            <Peripheral v="á" />
+            <Peripheral v="â" />
+            <Peripheral v="ã" />
+            <Peripheral v="ä" />
+            <Peripheral v="å" />
+            <Peripheral v="æ" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="ç" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="é" />
+            <Peripheral v="è" />
+            <Peripheral v="ê" />
+            <Peripheral v="ë" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="ì" />
+            <Peripheral v="í" />
+            <Peripheral v="î" />
+            <Peripheral v="ï" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="ñ" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="ò" />
+            <Peripheral v="ó" />
+            <Peripheral v="ô" />
+            <Peripheral v="õ" />
+            <Peripheral v="ö" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="ß" fixedCase="true" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="ù" />
+            <Peripheral v="ú" />
+            <Peripheral v="û" />
+            <Peripheral v="ü" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="ý" />
+            <Peripheral v="ÿ" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="¡" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="¿" />
+        </GlyphDef>
+    </GlyphDefs>
+    <GlyphDefs id="sv">
+        <GlyphDef v="a">
+            <Peripheral v="å" />
+            <Peripheral v="ä" />
+            <Peripheral v="à" />
+            <Peripheral v="á" />
+            <Peripheral v="â" />
+            <Peripheral v="ã" />
+            <Peripheral v="æ" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="ç" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="é" />
+            <Peripheral v="è" />
+            <Peripheral v="ê" />
+            <Peripheral v="ë" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="ì" />
+            <Peripheral v="í" />
+            <Peripheral v="î" />
+            <Peripheral v="ï" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="ñ" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="ö" />
+            <Peripheral v="ò" />
+            <Peripheral v="ó" />
+            <Peripheral v="ô" />
+            <Peripheral v="õ" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="ß" fixedCase="true" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="ù" />
+            <Peripheral v="ú" />
+            <Peripheral v="û" />
+            <Peripheral v="ü" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="ý" />
+            <Peripheral v="ÿ" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="¡" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="¿" />
+        </GlyphDef>
+    </GlyphDefs>
+    <GlyphDefs id="pl">
+        <GlyphDef v="a">
+            <Peripheral v="ą" />
+            <Peripheral v="à" />
+            <Peripheral v="á" />
+            <Peripheral v="â" />
+            <Peripheral v="ã" />
+            <Peripheral v="ä" />
+            <Peripheral v="å" />
+            <Peripheral v="æ" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="ć" />
+            <Peripheral v="ç" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="ę" />
+            <Peripheral v="é" />
+            <Peripheral v="è" />
+            <Peripheral v="ê" />
+            <Peripheral v="ë" />
+        </GlyphDef>
+        <GlyphDef v="l">
+            <Peripheral v="ł" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="ì" />
+            <Peripheral v="í" />
+            <Peripheral v="î" />
+            <Peripheral v="ï" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="ń" />
+            <Peripheral v="ñ" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="ô" />
+            <Peripheral v="õ" />
+            <Peripheral v="ö" />
+            <Peripheral v="ò" />
+            <Peripheral v="ó" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="ś" />
+            <Peripheral v="ß" fixedCase="true" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="ù" />
+            <Peripheral v="ú" />
+            <Peripheral v="û" />
+            <Peripheral v="ü" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="ý" />
+            <Peripheral v="ÿ" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="ź" />
+            <Peripheral v="ż" />
+            <Peripheral v="¡" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="¿" />
+        </GlyphDef>
+    </GlyphDefs>
+    <GlyphDefs id="tr">
+        <GlyphDef v="a">
+            <Peripheral v="à" />
+            <Peripheral v="á" />
+            <Peripheral v="â" />
+            <Peripheral v="ã" />
+            <Peripheral v="ä" />
+            <Peripheral v="å" />
+            <Peripheral v="æ" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="ç" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="é" />
+            <Peripheral v="è" />
+            <Peripheral v="ê" />
+            <Peripheral v="ë" />
+        </GlyphDef>
+        <GlyphDef v="g">
+            <Peripheral v="ğ" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="ı" />
+            <Peripheral v="ì" />
+            <Peripheral v="í" />
+            <Peripheral v="î" />
+            <Peripheral v="ï" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="ñ" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="ö" />
+            <Peripheral v="ò" />
+            <Peripheral v="ó" />
+            <Peripheral v="ô" />
+            <Peripheral v="õ" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="ş" />
+            <Peripheral v="ß" fixedCase="true" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="ü" />
+            <Peripheral v="ù" />
+            <Peripheral v="ú" />
+            <Peripheral v="û" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="ý" />
+            <Peripheral v="ÿ" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="¡" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="¿" />
+        </GlyphDef>
+    </GlyphDefs>
+    <GlyphDefs id="cs">
+        <GlyphDef v="a">
+            <Peripheral v="à" />
+            <Peripheral v="á" />
+            <Peripheral v="â" />
+            <Peripheral v="ã" />
+            <Peripheral v="ä" />
+            <Peripheral v="å" />
+            <Peripheral v="æ" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="č" />
+            <Peripheral v="ç" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="ě" />
+            <Peripheral v="é" />
+            <Peripheral v="è" />
+            <Peripheral v="ê" />
+            <Peripheral v="ë" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="í" />
+            <Peripheral v="ì" />
+            <Peripheral v="î" />
+            <Peripheral v="ï" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="ň" />
+            <Peripheral v="ñ" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="ó" />
+            <Peripheral v="ò" />
+            <Peripheral v="ô" />
+            <Peripheral v="õ" />
+            <Peripheral v="ö" />
+        </GlyphDef>
+        <GlyphDef v="r">
+            <Peripheral v="ř" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="š" />
+            <Peripheral v="ß" fixedCase="true" />
+        </GlyphDef>
+        <GlyphDef v="t">
+            <Peripheral v="ť" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="ů" />
+            <Peripheral v="ù" />
+            <Peripheral v="ú" />
+            <Peripheral v="û" />
+            <Peripheral v="ü" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="ý" />
+            <Peripheral v="ÿ" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="ž" />
+            <Peripheral v="¡" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="¿" />
+        </GlyphDef>
+    </GlyphDefs>
+    <GlyphDefs id="cyrillic">
+        <GlyphDef v="a">
+            <Peripheral v="а" />
+        </GlyphDef>
+        <GlyphDef v="b">
+            <Peripheral v="б" />
+        </GlyphDef>
+        <GlyphDef v="c">
+            <Peripheral v="ц" />
+            <Peripheral v="ч" />
+        </GlyphDef>
+        <GlyphDef v="d">
+            <Peripheral v="д" />
+        </GlyphDef>
+        <GlyphDef v="e">
+            <Peripheral v="е" />
+            <Peripheral v="ё" />
+        </GlyphDef>
+        <GlyphDef v="f">
+            <Peripheral v="ф" />
+        </GlyphDef>
+        <GlyphDef v="g">
+            <Peripheral v="г" />
+        </GlyphDef>
+        <GlyphDef v="h">
+            <Peripheral v="х" />
+        </GlyphDef>
+        <GlyphDef v="i">
+            <Peripheral v="и" />
+        </GlyphDef>
+        <GlyphDef v="j">
+            <Peripheral v="й" />
+        </GlyphDef>
+        <GlyphDef v="k">
+            <Peripheral v="к" />
+        </GlyphDef>
+        <GlyphDef v="l">
+            <Peripheral v="л" />
+        </GlyphDef>
+        <GlyphDef v="m">
+            <Peripheral v="м" />
+        </GlyphDef>
+        <GlyphDef v="n">
+            <Peripheral v="н" />
+        </GlyphDef>
+        <GlyphDef v="o">
+            <Peripheral v="о" />
+        </GlyphDef>
+        <GlyphDef v="p">
+            <Peripheral v="п" />
+        </GlyphDef>
+        <GlyphDef v="r">
+            <Peripheral v="р" />
+        </GlyphDef>
+        <GlyphDef v="s">
+            <Peripheral v="с" />
+            <Peripheral v="ш" />
+            <Peripheral v="щ" />
+        </GlyphDef>
+        <GlyphDef v="t">
+            <Peripheral v="т" />
+            <Peripheral v="ь" />
+            <Peripheral v="ъ" />
+        </GlyphDef>
+        <GlyphDef v="u">
+            <Peripheral v="у" />
+        </GlyphDef>
+        <GlyphDef v="v">
+            <Peripheral v="в" />
+        </GlyphDef>
+        <GlyphDef v="y">
+            <Peripheral v="я" />
+            <Peripheral v="ы" />
+            <Peripheral v="ю" />
+            <Peripheral v="э" />
+        </GlyphDef>
+        <GlyphDef v="z">
+            <Peripheral v="з" />
+        </GlyphDef>
+        <GlyphDef v="е">
+            <Peripheral v="ё" />
+        </GlyphDef>
+    </GlyphDefs>
+    <KeyboardDefs1D>
+        <Keyboard1D id="qwerty">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="z" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="y" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph v="i" />
+                <Glyph v="k" />
+                <Glyph staggeringRow="0" v="o" />
+                <Glyph v="l" />
+                <Glyph staggeringRow="0" v="p" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="numbers" renderer="NUMBERS">
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v=":" />
+            </Layer>
+            <Layer>
+                <Glyph v="~" />
+                <Glyph v="$" />
+                <Glyph v="%" />
+                <Glyph v="^" />
+                <Glyph v="&amp;" />
+                <Glyph v="*" />
+                <Glyph v="+" />
+                <Glyph v="=" />
+                <Glyph v="&lt;" />
+                <Glyph v=">" />
+                <Glyph v="|" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="[" />
+                <Glyph v="]" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="numbers-es" renderer="NUMBERS">
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v=":" />
+            </Layer>
+            <Layer>
+                <Glyph v="~" />
+                <Glyph v="$" />
+                <Glyph v="%" />
+                <Glyph v="^" />
+                <Glyph v="&amp;" />
+                <Glyph v="*" />
+                <Glyph v="+" />
+                <Glyph v="=" />
+                <Glyph v="&lt;" />
+                <Glyph v=">" />
+                <Glyph v="|" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="¡" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="¿" />
+                <Glyph v="[" />
+                <Glyph v="]" />
+                <Glyph v=":)" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="alpha">
+            <Layer>
+                <Glyph v="a" />
+                <Glyph v="b" />
+                <Glyph v="c" />
+                <Glyph v="d" />
+                <Glyph v="e" />
+                <Glyph v="f" />
+                <Glyph v="g" />
+                <Glyph v="h" />
+                <Glyph v="i" />
+                <Glyph v="j" />
+                <Glyph v="k" />
+                <Glyph v="l" />
+                <Glyph v="m" />
+                <Glyph v="n" />
+                <Glyph v="o" />
+                <Glyph v="p" />
+                <Glyph v="q" />
+                <Glyph v="r" />
+                <Glyph v="s" />
+                <Glyph v="t" />
+                <Glyph v="u" />
+                <Glyph v="v" />
+                <Glyph v="w" />
+                <Glyph v="x" staggeringRow="0" />
+                <Glyph v="y" />
+                <Glyph v="z" staggeringRow="0" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="qwertz">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="y" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="z" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph v="i" />
+                <Glyph v="k" />
+                <Glyph v="o" staggeringRow="0" />
+                <Glyph v="l" />
+                <Glyph v="p" staggeringRow="0" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="azerty">
+            <Layer>
+                <Glyph v="a" />
+                <Glyph v="q" />
+                <Glyph v="w" />
+                <Glyph v="z" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="y" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="i" />
+                <Glyph v="k" />
+                <Glyph v="o" />
+                <Glyph v="l" staggeringRow="0" />
+                <Glyph v="p" />
+                <Glyph v="m" staggeringRow="0" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="dvorak">
+            <Layer>
+                <Glyph v="a" staggeringRow="1" />
+                <Glyph v="o" staggeringRow="1" />
+                <Glyph v="q" />
+                <Glyph v="e" staggeringRow="1" />
+                <Glyph v="j" />
+                <Glyph v="p" />
+                <Glyph v="u" />
+                <Glyph v="k" />
+                <Glyph v="y" />
+                <Glyph v="i" />
+                <Glyph v="x" />
+                <Glyph v="f" />
+                <Glyph v="d" />
+                <Glyph v="b" />
+                <Glyph v="g" />
+                <Glyph v="h" />
+                <Glyph v="m" />
+                <Glyph v="c" />
+                <Glyph v="t" />
+                <Glyph v="w" />
+                <Glyph v="r" />
+                <Glyph v="n" />
+                <Glyph v="v" />
+                <Glyph v="l" />
+                <Glyph v="s" />
+                <Glyph v="z" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="colemak">
+            <Layer useUpperCaseForPreview="false">
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="z" />
+                <Glyph v="w" />
+                <Glyph v="r" />
+                <Glyph v="x" />
+                <Glyph v="f" />
+                <Glyph v="s" />
+                <Glyph v="c" />
+                <Glyph v="p" />
+                <Glyph v="t" />
+                <Glyph v="v" />
+                <Glyph v="g" />
+                <Glyph v="d" />
+                <Glyph v="b" />
+                <Glyph v="j" />
+                <Glyph v="h" />
+                <Glyph v="k" />
+                <Glyph v="l" />
+                <Glyph v="n" />
+                <Glyph v="m" />
+                <Glyph v="u" />
+                <Glyph v="e" />
+                <Glyph v="y" staggeringRow="0" />
+                <Glyph v="i" />
+                <Glyph v="o" staggeringRow="1" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="cyrillic">
+            <Layer>
+                <Glyph v="й" />
+                <Glyph v="ф" />
+                <Glyph v="я" />
+                <Glyph v="ц" />
+                <Glyph v="ы" />
+                <Glyph v="ч" />
+                <Glyph v="у" />
+                <Glyph v="в" />
+                <Glyph v="с" />
+                <Glyph v="к" />
+                <Glyph v="а" />
+                <Glyph v="м" />
+                <Glyph v="е" />
+                <Glyph v="п" />
+                <Glyph v="и" />
+                <Glyph v="н" />
+                <Glyph v="р" />
+                <Glyph v="т" />
+                <Glyph v="г" />
+                <Glyph v="о" />
+                <Glyph v="ь" />
+                <Glyph v="ш" />
+                <Glyph v="л" />
+                <Glyph v="б" />
+                <Glyph v="щ" />
+                <Glyph v="д" />
+                <Glyph v="ю" />
+                <Glyph v="з" />
+                <Glyph v="ж" />
+                <Glyph v="х" staggeringRow="0" />
+                <Glyph v="э" />
+                <Glyph v="ъ" staggeringRow="0" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="qwerty-es">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="z" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="y" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph v="i" />
+                <Glyph v="k" />
+                <Glyph staggeringRow="0" v="o" />
+                <Glyph v="l" />
+                <Glyph staggeringRow="0" v="p" />
+                <Glyph v="ñ" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v=":)" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="qwerty-tr">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="z" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="y" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph v="ı" />
+                <Glyph v="k" />
+                <Glyph v="ö" />
+                <Glyph v="o" />
+                <Glyph v="l" />
+                <Glyph v="ç" />
+                <Glyph v="p" />
+                <Glyph v="ş" />
+                <Glyph v="ğ" staggeringRow="0" />
+                <Glyph v="i" />
+                <Glyph v="ü" staggeringRow="0" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="qwerty-sv">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="z" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="y" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph staggeringRow="0" v="i" />
+                <Glyph v="k" />
+                <Glyph staggeringRow="0" v="o" />
+                <Glyph v="l" />
+                <Glyph staggeringRow="0" v="p" />
+                <Glyph v="ö" />
+                <Glyph staggeringRow="0" v="å" />
+                <Glyph v="ä" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+        <Keyboard1D id="qwertz-gsw_CH">
+            <Layer>
+                <Glyph v="q" />
+                <Glyph v="a" />
+                <Glyph v="y" />
+                <Glyph v="w" />
+                <Glyph v="s" />
+                <Glyph v="x" />
+                <Glyph v="e" />
+                <Glyph v="d" />
+                <Glyph v="c" />
+                <Glyph v="r" />
+                <Glyph v="f" />
+                <Glyph v="v" />
+                <Glyph v="t" />
+                <Glyph v="g" />
+                <Glyph v="b" />
+                <Glyph v="z" />
+                <Glyph v="h" />
+                <Glyph v="n" />
+                <Glyph v="u" />
+                <Glyph v="j" />
+                <Glyph v="m" />
+                <Glyph staggeringRow="0" v="i" />
+                <Glyph v="k" />
+                <Glyph staggeringRow="0" v="o" />
+                <Glyph v="l" />
+                <Glyph staggeringRow="0" v="p" />
+                <Glyph v="ö" />
+                <Glyph staggeringRow="0" v="ü" />
+                <Glyph v="ä" />
+            </Layer>
+            <Layer>
+                <Glyph v="1" />
+                <Glyph v="2" />
+                <Glyph v="3" />
+                <Glyph v="4" />
+                <Glyph v="5" />
+                <Glyph v="6" />
+                <Glyph v="7" />
+                <Glyph v="8" />
+                <Glyph v="9" />
+                <Glyph v="0" />
+                <Glyph v=":" />
+                <Glyph v=";" />
+                <Glyph v="'" />
+                <Glyph v="&quot;" />
+                <Glyph v="\@" />
+                <Glyph v="\#" />
+                <Glyph v="(" />
+                <Glyph v=")" />
+                <Glyph v="_" />
+                <Glyph v="!" />
+                <Glyph v="," />
+                <Glyph v="." />
+                <Glyph v="\?" />
+                <Glyph v="-" />
+                <Glyph v="/" />
+                <Glyph v="☺" action="emoji" />
+            </Layer>
+        </Keyboard1D>
+    </KeyboardDefs1D>
+    <KeyboardDefs2D>
+        <Keyboard2D id="qwerty">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="y" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="z" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="numbers">
+            <Row>
+                <Button v="\#" />
+                <Button v="$" />
+                <Button v="(" />
+                <Button v=")" />
+                <Button v="1" style="number" width="1.2" />
+                <Button v="2" style="number" width="1.2" />
+                <Button v="3" style="number" width="1.2" />
+                <Button v="-" width="1.2" />
+                <Button v="/" />
+                <Button v="%" />
+            </Row>
+            <Row>
+                <Button v="\@" />
+                <Button v="&amp;" />
+                <Button v="&lt;" />
+                <Button v=">" />
+                <Button v="4" style="number" width="1.2" />
+                <Button v="5" style="number" width="1.2" />
+                <Button v="6" style="number" width="1.2" />
+                <Button v="+" width="1.2" />
+                <Button v="*" />
+                <Button v="=" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1" />
+                <Button v="_" />
+                <Button v="'" />
+                <Button v="&quot;" />
+                <Button v="7" style="number" width="1.2" />
+                <Button v="8" style="number" width="1.2" />
+                <Button v="9" style="number" width="1.2" />
+                <Button v="0" style="number" width="1.2" />
+                <Button v=":" />
+                <Button mode="DELETE" width="1" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="symbols">
+            <Row>
+                <Button v="€" />
+                <Button v="£" />
+                <Button v="¥" />
+                <Button v="$" />
+                <Button v="×" />
+                <Button v="÷" />
+                <Button v="^" />
+                <Button v="~" />
+                <Button v="¬" />
+                <Button v="¿" />
+            </Row>
+            <Row>
+                <Button v="…" />
+                <Button v="[" />
+                <Button v="]" />
+                <Button v="&lt;" />
+                <Button v=">" />
+                <Button v="•" />
+                <Button v="°" />
+                <Button v="™" />
+                <Button v="\\" />
+                <Button v="¡" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1" />
+                <Button v="{" />
+                <Button v="}" />
+                <Button v="|" />
+                <Button v="¦" />
+                <Button v="©" />
+                <Button v="§" />
+                <Button v="`" />
+                <Button v=";" />
+                <Button mode="DELETE" width="1" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="qwertz">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="z" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="y" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="azerty">
+            <Row>
+                <Button v="a" v2="1" />
+                <Button v="z" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="y" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+            </Row>
+            <Row>
+                <Button v="q" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="/" />
+                <Button v="m" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="w" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="dvorak">
+            <Row>
+                <Button mode="DELETE" width="1.5" />
+                <Button v="'" v2="1" />
+                <Button v="p" v2="2" />
+                <Button v="y" v2="3" />
+                <Button v="f" v2="4" />
+                <Button v="g" v2="5" />
+                <Button v="c" v2="6" />
+                <Button v="r" v2="7" />
+                <Button v="l" v2="8" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="o" v2="\#" />
+                <Button v="e" v2="$" />
+                <Button v="u" v2="_" />
+                <Button v="i" v2="&amp;" />
+                <Button v="d" v2="*" />
+                <Button v="h" v2="(" />
+                <Button v="t" v2=")" />
+                <Button v="n" v2="9" />
+                <Button v="s" v2="0" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="q" v2="&lt;" />
+                <Button v="j" v2=">" />
+                <Button v="k" v2=";" />
+                <Button v="x" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="m" v2="'" />
+                <Button v="w" v2="/" />
+                <Button v="v" v2="+" />
+                <Button v="z" v2="-" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="colemak">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="f" v2="3" />
+                <Button v="p" v2="4" />
+                <Button v="g" v2="5" />
+                <Button v="j" v2="6" />
+                <Button v="l" v2="7" />
+                <Button v="u" v2="8" />
+                <Button v="y" v2="9" />
+                <Button v="'" v2="0" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="r" v2="\#" />
+                <Button v="s" v2="$" />
+                <Button v="t" v2="_" />
+                <Button v="d" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="n" v2="(" />
+                <Button v="e" v2=")" />
+                <Button v="i" v2="/" />
+                <Button v="o" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="z" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="k" v2="'" />
+                <Button v="m" v2="+" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="arabic">
+            <Row>
+                <Button v="ض" v2="" />
+                <Button v="ص" v2="" />
+                <Button v="ث" v2="" />
+                <Button v="ق" v2="" />
+                <Button v="ف" v2="" />
+                <Button v="غ" v2="" />
+                <Button v="ع" v2="" />
+                <Button v="ه" v2="" />
+                <Button v="خ" v2="" />
+                <Button v="ح" v2="" />
+                <Button v="ج" v2="" />
+                <Button v="ة" v2="" />
+            </Row>
+            <Row>
+                <Button v="ش" v2="" />
+                <Button v="س" v2="" />
+                <Button v="ي" v2="" />
+                <Button v="ب" v2="" />
+                <Button v="ل" v2="" />
+                <Button v="ا" v2="" />
+                <Button v="ت" v2="" />
+                <Button v="ن" v2="" />
+                <Button v="م" v2="" />
+                <Button v="ك" v2="" />
+                <Button v="؛" v2="" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="ظ" v2="" />
+                <Button v="ط" v2="" />
+                <Button v="ذ" v2="" />
+                <Button v="د" v2="" />
+                <Button v="ز" v2="" />
+                <Button v="ر" v2="" />
+                <Button v="و" v2="" />
+                <Button v="،" v2="" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="cyrillic">
+            <Row>
+                <Button v="й" v2="1" />
+                <Button v="ц" v2="2" />
+                <Button v="у" v2="3" />
+                <Button v="к" v2="4" />
+                <Button v="е" v2="5" />
+                <Button v="н" v2="6" />
+                <Button v="г" v2="7" />
+                <Button v="ш" v2="8" />
+                <Button v="щ" v2="9" />
+                <Button v="з" v2="0" />
+                <Button v="х" v2="№" />
+                <Button v="ъ" v2="%" />
+            </Row>
+            <Row>
+                <Button v="ф" v2=":" />
+                <Button v="ы" v2=";" />
+                <Button v="в" v2="'" />
+                <Button v="а" v2="&quot;" />
+                <Button v="п" v2="\@" />
+                <Button v="р" v2="\#" />
+                <Button v="о" v2="(" />
+                <Button v="л" v2=")" />
+                <Button v="д" v2="_" />
+                <Button v="ж" v2="+" />
+                <Button v="э" v2="=" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="я" v2="!" />
+                <Button v="ч" v2="," />
+                <Button v="с" v2="." />
+                <Button v="м" v2="\?" />
+                <Button v="и" v2="-" />
+                <Button v="т" v2="/" />
+                <Button v="ь" v2=":)" />
+                <Button v="б" v2=")))" />
+                <Button v="ю" v2="*" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="qwerty-es">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="y" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="&amp;" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="*" />
+                <Button v="h" v2="(" />
+                <Button v="j" v2=")" />
+                <Button v="k" v2="¿" />
+                <Button v="l" v2="¡" />
+                <Button v="ñ" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="z" v2="$" />
+                <Button v="x" v2="+" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="qwerty-tr">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="y" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="ı" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+                <Button v="ğ" v2="{" />
+                <Button v="ü" v2="}" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="[" />
+                <Button v="ş" v2="]" />
+                <Button v="i" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="z" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button v="ö" v2="^" />
+                <Button v="ç" v2="+" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="qwerty-sv">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="y" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+                <Button v="å" v2="+" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="[" />
+                <Button v="ö" v2="]" />
+                <Button v="ä" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="z" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+        <Keyboard2D id="qwertz-gsw_CH">
+            <Row>
+                <Button v="q" v2="1" />
+                <Button v="w" v2="2" />
+                <Button v="e" v2="3" />
+                <Button v="r" v2="4" />
+                <Button v="t" v2="5" />
+                <Button v="z" v2="6" />
+                <Button v="u" v2="7" />
+                <Button v="i" v2="8" />
+                <Button v="o" v2="9" />
+                <Button v="p" v2="0" />
+                <Button v="ü" v2="+" />
+            </Row>
+            <Row>
+                <Button v="a" v2="\@" />
+                <Button v="s" v2="\#" />
+                <Button v="d" v2="$" />
+                <Button v="f" v2="_" />
+                <Button v="g" v2="&amp;" />
+                <Button v="h" v2="*" />
+                <Button v="j" v2="(" />
+                <Button v="k" v2=")" />
+                <Button v="l" v2="[" />
+                <Button v="ö" v2="]" />
+                <Button v="ä" v2="-" />
+            </Row>
+            <Row>
+                <Button mode="SHIFT" width="1.5" />
+                <Button v="y" v2="&lt;" />
+                <Button v="x" v2=">" />
+                <Button v="c" v2=";" />
+                <Button v="v" v2=":" />
+                <Button v="b" v2="&quot;" />
+                <Button v="n" v2="'" />
+                <Button v="m" v2="/" />
+                <Button mode="DELETE" width="1.5" />
+            </Row>
+        </Keyboard2D>
+    </KeyboardDefs2D>
+    <LayoutSetDefs>
+        <LayoutSet id="latin">
+            <Layout id="qwerty" name="QWERTY">
+                <Keyboard id="letters" ref1d="qwerty" ref2d="qwerty" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+            <Layout id="alpha" name="Alphabetical">
+                <Keyboard id="letters" ref1d="alpha" ref2d="qwerty" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+            <Layout id="qwertz" name="QWERTZ">
+                <Keyboard id="letters" ref1d="qwertz" ref2d="qwertz" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+            <Layout id="azerty" name="AZERTY">
+                <Keyboard id="letters" ref1d="azerty" ref2d="azerty" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="englishspecial">
+            <Layout id="colemak" name="Colemak">
+                <Keyboard id="letters" ref1d="colemak" ref2d="colemak" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+            <Layout id="dvorak" name="Dvorak">
+                <Keyboard id="letters" ref1d="dvorak" ref2d="dvorak" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="cyrillic">
+            <Layout id="cyrillic" name="Кириллица">
+                <Keyboard id="letters" ref1d="cyrillic" ref2d="cyrillic" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="tr">
+            <Layout id="qwerty-tr" name="QWERTY (Turkish)">
+                <Keyboard id="letters" ref1d="qwerty-tr" ref2d="qwerty-tr" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="sv">
+            <Layout id="qwerty-sv" name="QWERTY (Swedish)">
+                <Keyboard id="letters" ref1d="qwerty-sv" ref2d="qwerty-sv" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="de">
+            <Layout id="qwertz-gsw_CH" name="QWERTZ (Swiss)">
+                <Keyboard id="letters" ref1d="qwertz-gsw_CH" ref2d="qwertz-gsw_CH" />
+                <Keyboard id="numbers" ref1d="numbers" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+        <LayoutSet id="es">
+            <Layout id="qwerty-es" name="QWERTY (Spanish)">
+                <Keyboard id="letters" ref1d="qwerty-es" ref2d="qwerty-es" />
+                <Keyboard id="numbers" ref1d="numbers-es" ref2d="numbers" />
+                <Keyboard id="symbols" ref1d="numbers" ref2d="symbols" />
+            </Layout>
+        </LayoutSet>
+    </LayoutSetDefs>
+    <Languages>
+        <Language id="default" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="en" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+            <LayoutSet ref="englishspecial" />
+        </Language>
+        <Language id="en-uk" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+            <LayoutSet ref="englishspecial" />
+        </Language>
+        <Language id="fr" defaultLayout="azerty">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="es" defaultLayout="qwerty">
+            <LayoutSet ref="es" />
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="de" defaultLayout="qwertz">
+            <LayoutSet ref="de" />
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="it" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="pt-br" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="ru" defaultLayout="cyrillic" glyphDefs="cyrillic">
+            <LayoutSet ref="cyrillic" />
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="pl" defaultLayout="qwertz" glyphDefs="pl">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="sv" defaultLayout="qwerty-sv" glyphDefs="sv">
+            <LayoutSet ref="sv" />
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="cs" defaultLayout="qwertz" glyphDefs="cs">
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="tr" defaultLayout="qwerty-tr" glyphDefs="tr">
+            <LayoutSet ref="tr" />
+            <LayoutSet ref="latin" />
+        </Language>
+        <Language id="pt-pt" defaultLayout="qwerty">
+            <LayoutSet ref="latin" />
+        </Language>
+    </Languages>
+</MinuumKeyboards>

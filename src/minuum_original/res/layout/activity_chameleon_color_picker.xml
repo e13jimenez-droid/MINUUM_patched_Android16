@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/theme_chameleon_warn" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.2" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:id="@id/background_color_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/default_background" />
+                <com.larswerkman.holocolorpicker.ColorPicker android:id="@id/colorpicker_wheel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0sp" android:layout_marginRight="10.0sp" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.2" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/colorpicker_show_keyboard" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/show_keyboard_icon" android:padding="20.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/theme_chooser_show_hide" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

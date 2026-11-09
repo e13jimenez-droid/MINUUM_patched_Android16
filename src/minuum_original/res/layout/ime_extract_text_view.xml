@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.ui.ExtractTextLayout style="?attr/extract_text_container_style"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:minuum="http://schemas.android.com/apk/res/com.whirlscape.minuum">
+    <android.inputmethodservice.ExtractEditText android:id="@android:id/inputExtractEditText" android:inputType="text" style="?attr/extract_text_edit_text_style" />
+</com.whirlscape.minuum.ui.ExtractTextLayout>

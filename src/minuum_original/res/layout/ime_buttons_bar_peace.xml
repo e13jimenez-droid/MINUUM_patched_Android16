@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="?attr/primary_keyboard_view_container_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/shift_container_1D" style="?attr/candidates_key_container_style">
+        <ImageButton android:id="@id/shift_button" style="?attr/candidates_key_style" />
+        <ImageView android:id="@id/shift_icon_glow" android:src="@drawable/icon_shift_glow" android:tint="?highlight_color" style="?attr/candidates_key_overlay_style" />
+        <ImageView android:id="@id/shift_icon_outline" android:src="@drawable/icon_shift_outline" android:tint="?icon_color" style="?attr/candidates_key_overlay_style" />
+        <ImageView android:id="@id/shift_icon_full_highlight" android:src="@drawable/icon_shift_full" android:tint="?highlight_color" style="?attr/candidates_key_overlay_style" />
+        <ImageView android:id="@id/shift_icon_full_icon" android:src="@drawable/icon_shift_full" android:tint="?icon_color" style="?attr/candidates_key_overlay_style" />
+        <ImageView android:id="@id/shift_icon_ellipsis" android:src="@drawable/icon_ellipsis" style="?attr/candidates_key_secondary_style" />
+    </RelativeLayout>
+    <RelativeLayout style="?attr/candidates_key_container_style">
+        <ImageButton android:id="@id/hideIMEbutton" android:src="@drawable/icon_back" style="?attr/candidates_key_style" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/delete_container_1D" style="?attr/candidates_key_container_style">
+        <ImageButton android:id="@id/delete_button" android:src="@drawable/icon_delete" style="?attr/candidates_key_style" />
+    </RelativeLayout>
+</LinearLayout>

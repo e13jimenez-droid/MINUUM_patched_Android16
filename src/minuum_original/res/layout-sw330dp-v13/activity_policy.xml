@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/policylayout" android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/setup_minuum_logo" android:layout_weight="0.2" />
+    <ScrollView android:id="@id/policyscrollview" android:background="@drawable/setup_button_unpressed" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.8">
+        <com.whirlscape.patch.PatchedTextView android:scrollbarStyle="insideInset" android:textSize="14.0sp" android:linksClickable="true" android:id="@id/minuum_terms_of_service" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <TextView android:gravity="center" android:layout_gravity="center" android:background="@drawable/setup_button_unpressed" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="Do you agree to the terms and conditions?" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/deny_policy" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/policy_deny_button_selector" android:layout_weight="1.0" android:onClick="denyPolicy" />
+        <ImageView android:id="@id/accept_policy" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/policy_confirm_button_selector" android:layout_weight="1.0" android:onClick="acceptPolicy" />
+    </LinearLayout>
+</LinearLayout>

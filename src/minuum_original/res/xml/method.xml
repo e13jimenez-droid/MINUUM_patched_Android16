@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method android:isDefault="true" android:settingsActivity="com.whirlscape.minuum.MinuumPreferenceActivity"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <subtype android:label="@string/ime_subtype_label" android:icon="@drawable/minuum_icon" android:imeSubtypeLocale="en_US" android:imeSubtypeMode="keyboard" />
+</input-method>

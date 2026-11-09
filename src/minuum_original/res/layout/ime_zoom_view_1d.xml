@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.ui.feedback.PopupFeedbackContentView android:orientation="vertical" android:id="@id/themainhint_1d" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/hintfillerview_1d" android:focusable="false" android:clickable="false" android:layout_width="1.0dip" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/hint_puncts_1d" android:layout_width="wrap_content" android:layout_height="40.0dip">
+        <TextView android:id="@id/hint_punct0_1d" style="@style/ZoomViewTextViewBeta" />
+        <TextView android:id="@id/hint_punct1_1d" style="@style/ZoomViewTextViewBeta" />
+        <TextView android:id="@id/hint_punct2_1d" style="@style/ZoomViewTextViewBeta" />
+        <TextView android:id="@id/hint_punct3_1d" style="@style/ZoomViewTextViewBeta" />
+        <TextView android:id="@id/hint_punct4_1d" style="@style/ZoomViewTextViewBeta" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/hint_letters_1d" android:layout_width="wrap_content" android:layout_height="60.0dip">
+        <TextView android:id="@id/hint_letter0_1d" style="@style/ZoomViewTextViewAlpha" />
+        <TextView android:id="@id/hint_letter1_1d" android:scaleType="fitCenter" style="@style/ZoomViewTextViewAlpha" />
+        <TextView android:id="@id/hint_letter2_1d" style="@style/ZoomViewTextViewAlpha" />
+        <TextView android:id="@id/hint_letter3_1d" style="@style/ZoomViewTextViewAlpha" />
+        <TextView android:id="@id/hint_letter4_1d" style="@style/ZoomViewTextViewAlpha" />
+    </LinearLayout>
+</com.whirlscape.minuum.ui.feedback.PopupFeedbackContentView>

@@ -1,0 +1,21 @@
+# Built APKs — too large for git, use GitHub releases
+apks/*.apk
+
+# Decompiled source — large binary blobs, not useful in git
+src/minuum_original/lib/
+src/minuum_original/assets/disambigdata/
+src/minuum_original/assets/emoji/
+src/minuum_original/assets/icudt50l.dat
+src/minuum_original/original/
+
+# Keystore — never commit
+*.keystore
+*.jks
+
+# Build artifacts
+build/
+*.apk
+
+# OS
+.DS_Store
+Thumbs.db

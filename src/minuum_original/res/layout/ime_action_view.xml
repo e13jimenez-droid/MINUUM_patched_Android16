@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.ui.feedback.PopupFeedbackContentView android:orientation="vertical" android:id="@id/themainaction" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/actionfillerview" android:layout_width="0.0px" android:layout_height="0.0px">
+        <LinearLayout android:id="@id/leftactionviews" android:layout_alignParentLeft="true" style="@style/ActionViewSideContainer">
+            <LinearLayout android:id="@id/action_alt" style="@style/ActionViewContainer">
+                <ImageView android:id="@id/alt_img" android:src="@drawable/icon_mic" android:contentDescription="alt" style="@style/ActionViewImage" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/action_delete" style="@style/ActionViewContainer">
+                <ImageView android:id="@id/delete_img" android:src="@drawable/icon_delete" android:contentDescription="delete" style="@style/ActionViewImage" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/rightactionviews" android:layout_alignParentRight="true" style="@style/ActionViewSideContainer">
+            <LinearLayout android:id="@id/action_enter" style="@style/ActionViewContainer">
+                <ImageView android:id="@id/enter_img" android:src="@drawable/icon_enter" android:contentDescription="enter" style="@style/ActionViewImage" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/action_space" style="@style/ActionViewContainer">
+                <ImageView android:id="@id/space_img" android:src="@drawable/icon_space" android:contentDescription="space" style="@style/ActionViewImage" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.whirlscape.minuum.ui.feedback.PopupFeedbackContentView>

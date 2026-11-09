@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.whirlscape.minuumfree" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <!-- Removed WRITE_EXTERNAL_STORAGE (scoped storage issues on API 29+) -->
+    <!-- Removed BILLING (app delisted, would crash) -->
+    <!-- Removed C2D_MESSAGE/GCM (Google Cloud Messaging deprecated) -->
+    <!-- Removed CampaignTrackingService (Google Analytics deprecated) -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:icon="@drawable/minuum_icon" android:label="@string/app_name" android:name="com.whirlscape.minuum.MinuumApplication" android:theme="@style/MinuumAppTheme">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:label="@string/title_activity_minuum_keyboard" android:name="com.whirlscape.minuum.MinuumKeyboardService" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <service android:label="@string/title_minuum_services" android:name="com.whirlscape.minuum.service.NotificationHelperService">
+            <intent-filter>
+                <action android:name="ACTION_RATE"/>
+                <action android:name="ACTION_DEFER_RATE"/>
+                <action android:name="ACTION_NEVER_RATE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.whirlscape.minuum.languages.LanguagePackUpdateService"/>
+        <activity android:allowTaskReparenting="true" android:label="@string/title_activity_minuum_settings" android:launchMode="singleTask" android:name="com.whirlscape.minuum.MinuumPreferenceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="minuum.com" android:scheme="http"/>
+                <data android:pathPattern="/app/preference/.*"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:allowTaskReparenting="true" android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="@string/title_activity_setup" android:name="com.whirlscape.minuum.SetupActivity" android:theme="@style/MinuumAppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_policy" android:name="com.whirlscape.minuum.PolicyActivity" android:noHistory="true" android:theme="@style/MinuumAppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_legal" android:name="com.whirlscape.minuum.LegalActivity" android:parentActivityName="com.whirlscape.minuum.MinuumPreferenceActivity"/>
+        <activity android:label="@string/app_name" android:name="com.whirlscape.minuum.tutorial.TutorialActivity" android:screenOrientation="portrait" android:theme="@style/MinuumAppTheme.NoActionBar" android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
+            <intent-filter>
+                <data android:host="minuum.com" android:scheme="http"/>
+                <data android:pathPattern="/app/tutorial/.*"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:allowTaskReparenting="true" android:label="@string/title_activity_tutorial" android:name="com.whirlscape.minuum.CheatSheetActivity" android:theme="@style/MinuumAppTheme.NoActionBar" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:label="@string/app_name" android:name="com.whirlscape.minuum.tutorial.TestingActivity"/>
+        <activity android:label="@string/title_activity_experimental" android:name="com.whirlscape.minuum.ExperimentalActivity" android:parentActivityName="com.whirlscape.minuum.MinuumPreferenceActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.whirlscape.minuum.MinuumPreferenceActivity"/>
+        </activity>
+        <service android:name="com.google.android.voiceime.ServiceHelper"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation" android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.google.android.voiceime.ActivityHelper" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/title_activity_language_download" android:name="com.whirlscape.minuum.LanguageDownloadActivity" android:parentActivityName="com.whirlscape.minuum.MinuumPreferenceActivity"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.whirlscape.minuum.InputMethodChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/title_activity_color_picker" android:name="com.whirlscape.minuum.ColorPickerActivity" android:parentActivityName="com.whirlscape.minuum.ThemeChooserActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible">
+            <intent-filter>
+                <data android:host="minuum.com" android:scheme="http"/>
+                <data android:pathPattern="/theme/.*"/>
+                <action android:name="android.intent.action.VIEW"/>
+<category android:name="android.intent.category.DEFAULT"/>
+<category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_chameleon_color_picker" android:name="com.whirlscape.minuum.ChameleonActivity" android:parentActivityName="com.whirlscape.minuum.ThemeChooserActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:label="@string/title_activity_theme_chooser" android:name="com.whirlscape.minuum.ThemeChooserActivity" android:parentActivityName="com.whirlscape.minuum.MinuumPreferenceActivity" android:windowSoftInputMode="adjustResize|stateVisible"/>
+    </application>
+</manifest>

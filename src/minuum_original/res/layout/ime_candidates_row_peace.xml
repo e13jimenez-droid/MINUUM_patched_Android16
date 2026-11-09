@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="?attr/candidates_row_container_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/disambig_container" style="?attr/candidates_key_container_style">
+        <ImageButton android:id="@id/disambig_button" android:src="@drawable/disambig_base" style="?attr/candidates_disambig_selector_style" />
+        <ImageView android:id="@id/disambig_button_off" android:src="@drawable/disambig_off" style="?attr/candidates_disambig_selector_style" />
+        <ImageView android:id="@id/disambig_button_on" android:src="@drawable/disambig_on" style="?attr/candidates_disambig_selector_style" />
+    </RelativeLayout>
+    <include android:id="@id/horzScrollView" layout="@layout/ime_candidates_view" style="?attr/candidates_container_style" />
+</LinearLayout>

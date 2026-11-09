@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.whirlscape.minuumfree_3.5.2-129_minAPI14(arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64)(nodpi)_apkmirror.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/disambigdata/en/ngramsbloom
+- assets/disambigdata/en/reference.ver
+- png
+- jpg
+- wav
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0-dirty
+versionInfo:
+  versionCode: '129'
+  versionName: 3.5.2

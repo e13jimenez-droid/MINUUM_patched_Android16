@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/cursor_control_up" android:layout_width="wrap_content" android:src="@drawable/bonus_cursor_up" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/cursor_control_down" android:layout_width="wrap_content" android:src="@drawable/bonus_cursor_down" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/cursor_control_left" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/bonus_cursor_left" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/cursor_control_right" android:layout_width="wrap_content" android:src="@drawable/bonus_cursor_right" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/cursor_control_skip_left" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/bonus_cursor_skip_left" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/cursor_control_skip_right" android:layout_width="wrap_content" android:src="@drawable/bonus_cursor_skip_right" style="?attr/bonus_key_style" />
+</LinearLayout>

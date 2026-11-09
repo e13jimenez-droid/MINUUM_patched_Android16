@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/title_activity_minuum_settings" android:key="title_activity_minuum_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:minuum="http://schemas.android.com/apk/res/com.whirlscape.minuumfree">
+    <PreferenceScreen android:icon="@drawable/prefs_icon_skunk" android:title="Skunk works" android:key="skunk_works">
+        <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_tight_weight_title" android:key="tight_weight" android:summary="@string/preferences_tight_weight_summary" android:defaultValue="0" android:dialogTitle="@string/preferences_tight_weight_dialog_title" minuum:minValue="0" minuum:maxValue="100" />
+        <CheckBoxPreference android:title="@string/limit_three_candidates" android:key="only_three_candidates_for_thee" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/font_size_bump_for_select" android:key="font_size_bump_for_select" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/precise_mode_for_null_fields_title" android:key="precise_mode_for_null_fields" android:summary="@string/precise_mode_for_null_fields_summ" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/show_scores_title" android:key="show_candidate_scores" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/remove_candidates_row_title" android:key="remove_candidates_row" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/is_live_correct" android:key="live_correct" android:summary="@string/is_live_correct_summ" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/is_zoomviews" android:key="is_zoomviews" android:summary="@string/is_zoomviews_summ" android:defaultValue="true" />
+        <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_keyboard_alpha_title" android:key="keyboard_alpha" android:summary="@string/preferences_keyboard_alpha_summary" android:defaultValue="100" android:dialogTitle="@string/preferences_keyboard_alpha_title" minuum:minValue="0" minuum:maxValue="100" />
+        <Preference android:title="@string/dump_files" android:key="dump_files" android:summary="@string/dump_files_summ" />
+        <Preference android:title="@string/preferences_reset_skunk" android:key="reset_skunk_prefs" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/prefs_icon_devil" android:title="Development" android:key="development">
+        <CheckBoxPreference android:title="Show touchable region" android:key="show_touchable_region" android:summary="Show the region of the onscreen keyboard which is touchable" android:defaultValue="false" />
+        <Preference android:title="Days remaining popup" android:key="days_remaining_popup" />
+        <Preference android:title="Launch pref subscreen" android:key="launch_subscreen" />
+        <Preference android:title="Rating Nag" android:key="trigger_rating_nag" android:summary="Triggers the rating nag" />
+        <Preference android:title="Mailing Nag" android:key="trigger_mailing_nag" android:summary="Triggers the mailing nag" />
+        <Preference android:title="Reset Announcement" android:key="reset_announcement" android:summary="Announcement will open next time keyboard opens" />
+        <Preference android:title="Set as new" android:key="set_as_new" android:summary="To test the tutorial and EULA" />
+        <Preference android:title="Complete purchase" android:key="trigger_completed_purchase" android:summary="Simulates a completed purchase" />
+        <Preference android:title="Reset Purchases" android:key="reset_purchases" android:summary="Clears all purchases associated with this account" />
+        <Preference android:title="Tutorial function tester" android:key="disable_tester" android:summary="Interface for testing tutorial functions" />
+        <Preference android:title="Crash" android:key="trigger_crash" android:summary="Minuum will now crash! Yay!" />
+        <Preference android:title="Corrupt caches" android:key="corrupt_caches" android:summary="Write a small binary blob into the caches so they are corrupt" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/prefs_icon_wear" android:title="@string/preferences_settings_category_wear_title" android:key="wear_prefs">
+        <Preference android:summary="@string/preferences_wear_blurb" />
+        <CheckBoxPreference android:title="@string/hardcore_mode_title" android:key="remove_candidates_row" android:summary="@string/hardcore_mode_summ" android:defaultValue="false" />
+    </PreferenceScreen>
+    <Preference android:icon="@drawable/prefs_icon_buy" android:title="@string/preferences_settings_buy_title" android:key="buy_badge" />
+    <Preference android:icon="@drawable/prefs_menu_unlocked" android:title="@string/unlocked_pref_title" android:key="unlocked_badge" android:summary="@string/unlocked_pref_summary" />
+    <Preference android:icon="@drawable/prefs_icon_indiegogo" android:title="@string/indiegogo_pref_title" android:key="indiegogo_badge" android:summary="@string/indiegogo_pref_summary" />
+    <Preference android:icon="@drawable/prefs_icon_share" android:title="@string/preferences_settings_share_title" android:key="settings_share" />
+    <Preference android:icon="@drawable/prefs_icon_share" android:title="@string/preferences_settings_get_dango" android:key="get_dango" />
+    <PreferenceCategory android:title="@string/preferences_howto_category_settings_title">
+        <Preference android:icon="@drawable/prefs_icon_tutorial" android:title="@string/preferences_minuum_tutorial_title" android:key="minuum_tutorial" />
+        <Preference android:icon="@drawable/prefs_icon_cheat_sheet" android:title="@string/preferences_minuum_cheat_sheet_title" android:key="minuum_cheat_sheet" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_settings_category_settings_title">
+        <Preference android:icon="@drawable/prefs_themes_icon" android:title="@string/preferences_settings_category_keyboard_theme" android:key="theme_chooser">
+            <intent android:targetPackage="com.whirlscape.minuumfree" android:targetClass="com.whirlscape.minuum.ThemeChooserActivity" />
+        </Preference>
+        <PreferenceScreen android:icon="@drawable/prefs_icon_keyboard_for_settings" android:title="@string/preferences_settings_category_looknfeel_title" android:key="look_n_feel">
+            <PreferenceCategory android:title="@string/preferences_settings_category_looknfeel_title">
+                <Preference android:summary="@string/preferences_looknfeel_blurb" />
+                <CheckBoxPreference android:title="@string/preferences_show_spacebar_title" android:key="show_spacebar" android:summary="@string/preferences_show_spacebar_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_gestures_enable_title" android:key="gesture_enable" android:summary="@string/preferences_gestures_enable_summary" android:dependency="show_spacebar" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_is_fast_language_switching_title" android:key="is_fast_language_switching" android:summary="@string/preferences_is_fast_language_switching_summary" android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/preferences_is_lowercase_preview_title" android:key="is_lower_case_preview" android:summary="@string/preferences_is_lowercase_preview_summary" android:defaultValue="false" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_sizing_title">
+                <com.whirlscape.minuum.ui.ImageListPreference android:entries="@array/keyboard_position_names" android:title="@string/preferences_keyboard_position_title" android:key="keyboard_position" android:summary="@string/preferences_keyboard_position_summary" android:defaultValue="NORMAL" android:entryValues="@array/keyboard_position_values" minuum:entryImages="@array/keyboard_position_preview_images" />
+                <Preference android:key="floating_video" android:summary="@string/preferences_keyboard_position_video_summ" />
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_candidates_height_title" android:key="candidates_height" android:summary="@string/preferences_candidate_height_summary" android:defaultValue="80" android:dialogTitle="@string/preferences_candidates_height_dialog_title" minuum:minValue="60" minuum:maxValue="160" />
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_spacebar_height_title" android:key="spacebar_height" android:summary="@string/preferences_spacebar_height_summary" android:dependency="show_spacebar" android:defaultValue="80" android:dialogTitle="@string/preferences_spacebar_height_dialog_title" minuum:minValue="60" minuum:maxValue="160" />
+                <com.whirlscape.minuum.ui.SeekBarPreference1D android:persistent="true" android:title="@string/preferences_keyboard_height_title" android:key="keyboard_height" android:summary="@string/preferences_keyboard_height_summary" android:defaultValue="145" android:dialogTitle="@string/preferences_keyboard_height_dialog_title" minuum:minValue="80" minuum:maxValue="200" />
+                <com.whirlscape.minuum.ui.SeekBarPreference2D android:persistent="true" android:title="@string/preferences_keyboard_height_2d_title" android:key="keyboard_height_2d" android:summary="@string/preferences_keyboard_height_2d_summary" android:defaultValue="300" android:dialogTitle="@string/preferences_keyboard_height_2d_dialog_title" minuum:minValue="150" minuum:maxValue="600" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/prefs_icon_feedback" android:title="@string/preferences_settings_category_feedback_title" android:key="feedback">
+            <PreferenceCategory android:title="@string/preferences_settings_category_vibrate_title">
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_vibrate_on_keypress_title" android:key="vibrate_on_keypress" android:summary="@string/preferences_vibrate_on_keypress_summary" android:defaultValue="5" android:dialogTitle="@string/preferences_vibrate_on_keypress_dialog_title" minuum:minValue="0" minuum:maxValue="100" minuum:units=" ms" />
+                <CheckBoxPreference android:title="@string/preferences_vibrate_in_slient_mode_title" android:key="vibrate_in_slient_mode" android:summary="@string/preferences_vibrate_in_slient_mode_summary" android:defaultValue="true" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_sound_title">
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_sound_on_keypress_title" android:key="sound_on_keypress" android:summary="@string/preferences_sound_on_keypress_summary" android:defaultValue="80" android:dialogTitle="@string/preferences_sound_on_keypress_dialog_title" minuum:minValue="0" minuum:maxValue="100" minuum:units="%" />
+                <ListPreference android:entries="@array/sound_set_names" android:title="@string/preferences_sound_set_title" android:key="sound_set_select" android:summary="@string/preferences_sound_set_summary" android:defaultValue="pockpock" android:entryValues="@array/sound_set_values" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <Preference android:icon="@drawable/prefs_icon_languages" android:title="@string/preferences_settings_category_language_layout_title" android:key="language_downloader" android:summary="@string/preferences_language_download_summary">
+            <intent android:targetPackage="com.whirlscape.minuumfree" android:targetClass="com.whirlscape.minuum.LanguageDownloadActivity" />
+        </Preference>
+        <PreferenceScreen android:icon="@drawable/prefs_icon_user_data" android:title="@string/preferences_settings_category_userdata_title" android:key="user_data">
+            <PreferenceCategory android:title="@string/preferences_settings_category_import_title">
+                <Preference android:title="@string/preferences_dict_load_title" android:key="dict_load" android:summary="@string/preferences_dict_load_summary" />
+                <Preference android:title="@string/preferences_contact_load_title" android:key="contact_load" android:summary="@string/preferences_contact_load_summary" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_manage_title">
+                <Preference android:title="@string/preferences_export_mutable_title" android:key="export_mutable" android:summary="@string/preferences_export_mutable_summary" />
+                <Preference android:title="@string/preferences_import_mutable_title" android:key="import_mutable" android:summary="@string/preferences_import_mutable_summary" />
+                <Preference android:title="@string/preferences_reset_mutable_title" android:key="reset_mutable" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/prefs_icon_advanced" android:title="@string/preferences_settings_category_experimentalnadvanced_title" android:key="adv_n_experimental">
+            <PreferenceCategory android:title="@string/preferences_settings_category_experimental_title">
+                <Preference android:summary="@string/preferences_experimental_blurb" />
+                <CheckBoxPreference android:id="@id/extras_enabled_pref" android:title="@string/preferences_extras_enabled_title" android:key="extras_enabled" android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/preferences_bonus_panel_shortcut_title" android:key="bonus_panel_shortcut" android:summary="@string/preferences_bonus_panel_shortcut_summary" android:defaultValue="false" />
+                <MultiSelectListPreference android:entries="@array/extranames" android:id="@id/active_extra_pref" android:title="@string/preferences_extras_selected_title" android:key="extras_selected" android:summary="@string/preferences_extras_selected_summary" android:defaultValue="@array/extrakeys" android:entryValues="@array/extrakeys" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_advanced_title">
+                <Preference android:title="@string/preferences_reset_advanced" android:key="reset_adv_prefs" />
+                <Preference android:summary="@string/preferences_advanced_blurb" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_advanced_typing_title">
+                <CheckBoxPreference android:title="@string/preferences_emoji_synonym_title" android:key="emoji_synonyms" android:summary="@string/preferences_emoji_synonym_summary" android:defaultValue="true" />
+                <ListPreference android:entries="@array/next_word_predictions_names" android:title="@string/preferences_next_word_predictions_title" android:key="next_word_predictions" android:summary="@string/preferences_next_word_predictions_summary" android:defaultValue="word_emoji" android:entryValues="@array/next_word_predictions_values" />
+                <ListPreference android:entries="@array/currency_names" android:title="@string/preferences_currency_title" android:key="currency_select" android:summary="@string/preferences_currency_summary" android:defaultValue="auto" android:entryValues="@array/currency_values" />
+                <CheckBoxPreference android:title="@string/preferences_enter_to_send_title" android:key="enter_to_send" android:summary="@string/preferences_enter_to_send_summary" android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/preferences_switch_letters_after_space_title" android:key="switch_letters_after_space" android:summary="@string/preferences_switch_letters_after_space_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_auto_caps_title" android:key="auto_caps" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_auto_space_title" android:key="auto_space" android:summary="@string/preferences_auto_space_summ" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_smart_space_title" android:key="smart_space" android:summary="@string/preferences_smart_space_summ" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_doublespace_title" android:key="doublespace" android:summary="@string/preferences_doublespace_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/preferences_learning_enable_title" android:key="learning_enable" android:defaultValue="true" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preferences_settings_category_advanced_look_n_feel_title">
+                <CheckBoxPreference android:id="@id/custom_emoji_pref" android:title="@string/preferences_custom_emoji_title" android:key="custom_emoji" android:summary="@string/preferences_custom_emoji_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/render_secondary_title" android:key="render_secondary" android:summary="@string/render_secondary_summ" android:defaultValue="true" />
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_long_press_delay_title" android:key="long_press_delay" android:summary="@string/preferences_long_press_delay_summary" android:defaultValue="750" android:dialogTitle="@string/preferences_long_press_delay_dialog_title" minuum:minValue="200" minuum:maxValue="2000" minuum:units=" ms" />
+                <CheckBoxPreference android:title="@string/preferences_enable_animation_title" android:key="enable_animation" android:summary="@string/preferences_enable_animation_summary" android:defaultValue="true" />
+                <Preference android:summary="@string/preferences_auto_switch_2d_blurb" />
+                <CheckBoxPreference android:title="@string/preferences_auto_switch_2d_title" android:key="auto_switch_2d" android:summary="@string/preferences_auto_switch_2d_summary" android:defaultValue="false" />
+                <com.whirlscape.minuum.ui.SeekBarPreference android:persistent="true" android:title="@string/preferences_gesture_senstivity_title" android:key="gesture_sensitivity" android:summary="@string/preferences_gesture_senstivity_summary" android:defaultValue="50" android:dialogTitle="@string/preferences_gesture_senstivity_dialog_title" minuum:minValue="1" minuum:maxValue="100" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_settings_category_versionname_title">
+        <Preference android:icon="@drawable/prefs_icon_twitter" android:title="@string/preferences_follow_minuum_title" android:key="twitter" />
+        <Preference android:icon="@drawable/prefs_icon_updates" android:title="@string/mailing_list_pref_title" android:key="mailing_list" android:summary="@string/mailing_list_pref_summary" />
+        <Preference android:icon="@drawable/prefs_icon_support" android:title="@string/preferences_support_title" android:key="support" android:summary="@string/preferences_support_summary" />
+        <PreferenceScreen android:icon="@drawable/prefs_icon_legal" android:title="@string/preferences_legal_title" android:key="legal">
+            <Preference android:title="@string/preferences_license_title" android:key="license">
+                <intent android:targetPackage="com.whirlscape.minuumfree" android:action="@string/preferences_license_title" android:data="@string/license" android:targetClass="com.whirlscape.minuum.LegalActivity" />
+            </Preference>
+            <Preference android:title="@string/preferences_policy_title" android:key="license">
+                <intent android:targetPackage="com.whirlscape.minuumfree" android:action="@string/preferences_policy_title" android:data="@string/policy" android:targetClass="com.whirlscape.minuum.LegalActivity" />
+            </Preference>
+        </PreferenceScreen>
+        <Preference android:icon="@drawable/prefs_icon_reset_prefs" android:title="@string/preferences_reset_prefs_title" android:key="reset_prefs" />
+        <Preference android:icon="@drawable/prefs_icon_reset_prefs" android:title="@string/preferences_reset_caches_title" android:key="reset_caches" />
+    </PreferenceCategory>
+</PreferenceScreen>

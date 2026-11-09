@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.tutorial.CompositeTextView android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/composite_textview_peripheral_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" android:animateLayoutChanges="true">
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/composite_textview_main" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    <LinearLayout android:orientation="vertical" android:id="@id/composite_textview_peripheral_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" android:animateLayoutChanges="true">
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/composite_textview_peripheral_6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.whirlscape.minuum.tutorial.CompositeTextView>

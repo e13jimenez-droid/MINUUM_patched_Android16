@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExpandableListView android:id="@id/language_list" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@android:color/transparent" android:divider="@android:color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

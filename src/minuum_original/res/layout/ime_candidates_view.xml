@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.ui.CandidatesView android:id="@id/horzScrollView" android:fadingEdgeLength="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/horzScrollView_linlayout" style="?attr/candidates_inner_container_style">
+            <RelativeLayout android:id="@id/candidate_text_container_1" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_1" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_1" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_1" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_1" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_1" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_1" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_2" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_2" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_2" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_2" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_2" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_2" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_2" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_3" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_3" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_3" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_3" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_3" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_3" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_3" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_4" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_4" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_4" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_4" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_4" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_4" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_4" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_5" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_5" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_5" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_5" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_5" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_5" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_5" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_6" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_6" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_6" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_6" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_6" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_6" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_6" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_7" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_7" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_7" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_7" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_7" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_7" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_7" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_8" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_8" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_8" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_8" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_8" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_8" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_8" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_9" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_9" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_9" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_9" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_9" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_9" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+            <View android:id="@id/separator_9" style="?attr/candidates_divider_style" />
+            <RelativeLayout android:id="@id/candidate_text_container_10" style="?attr/candidates_text_container_style">
+                <TextView android:id="@id/candidate_10" style="?attr/candidates_text_style" />
+                <TextView android:id="@id/candidate_score_a_10" style="?attr/candidates_score_style_a" />
+                <TextView android:id="@id/candidate_score_b_10" style="?attr/candidates_score_style_b" />
+                <TextView android:id="@id/candidate_score_c_10" style="?attr/candidates_score_style_c" />
+                <TextView android:id="@id/candidate_lang_10" style="?attr/candidates_lang_style" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/candidates_spinner_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/candidates_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Small" />
+        </RelativeLayout>
+    </FrameLayout>
+</com.whirlscape.minuum.ui.CandidatesView>

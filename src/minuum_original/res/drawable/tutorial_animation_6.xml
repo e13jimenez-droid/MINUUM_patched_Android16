@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_1_front" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_2_front" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_3_front" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_4_front" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_5_front" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_6_front" />
+</animation-list>

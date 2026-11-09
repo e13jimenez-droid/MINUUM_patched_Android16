@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_1_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_2_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_3_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_4_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_5_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_6_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_7_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_8_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_9_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_10_back" />
+    <item android:duration="100" android:drawable="@drawable/tutorial_animation_6_11_back" />
+</animation-list>

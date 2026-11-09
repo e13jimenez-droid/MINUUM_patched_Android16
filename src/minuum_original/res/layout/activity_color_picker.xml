@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android1:id="@id/colorpicker_container" android1:layout_width="fill_parent" android1:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <LinearLayout android1:gravity="center" android1:orientation="vertical" android1:layout_width="fill_parent" android1:layout_height="fill_parent">
+        <LinearLayout android1:orientation="horizontal" android1:id="@id/colorpicker_background" android1:layout_width="fill_parent" android1:layout_height="0.0dip" android1:layout_weight="1.0">
+            <LinearLayout android1:gravity="center" android1:orientation="vertical" android1:id="@id/colorpicker_left_panel" android1:layout_width="0.0dip" android1:layout_height="fill_parent" android1:layout_weight="0.5">
+                <TextView android1:textSize="18.0sp" android1:textStyle="bold" android1:textColor="@android:color/black" android1:gravity="center" android1:id="@id/background_color_text" android1:layout_width="fill_parent" android1:layout_height="wrap_content" android1:layout_marginBottom="15.0dip" android1:text="@string/background" />
+                <com.larswerkman.holocolorpicker.ColorPicker android1:id="@id/colorpicker_wheel_upper" android1:layout_width="wrap_content" android1:layout_height="wrap_content" android1:layout_marginLeft="10.0sp" android1:layout_marginRight="10.0sp" />
+            </LinearLayout>
+            <LinearLayout android1:gravity="center" android1:orientation="vertical" android1:id="@id/colorpicker_right_panel" android1:layout_width="0.0dip" android1:layout_height="fill_parent" android1:layout_weight="0.5">
+                <TextView android1:textSize="18.0sp" android1:textStyle="bold" android1:textColor="@android:color/black" android1:gravity="center" android1:id="@id/highlight_color_text" android1:layout_width="fill_parent" android1:layout_height="wrap_content" android1:layout_marginBottom="15.0dip" android1:text="@string/accent" />
+                <com.larswerkman.holocolorpicker.ColorPicker android1:id="@id/colorpicker_wheel_lower" android1:layout_width="wrap_content" android1:layout_height="wrap_content" android1:layout_marginLeft="10.0sp" android1:layout_marginRight="10.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android1:gravity="center" android1:id="@id/colorpicker_theme_switch_container" android1:layout_width="fill_parent" android1:layout_height="wrap_content" android1:layout_marginTop="10.0dip" android1:layout_marginBottom="35.0dip">
+            <TextView android1:textSize="18.0sp" android1:textStyle="bold" android1:textColor="@android:color/black" android1:layout_width="wrap_content" android1:layout_height="wrap_content" android1:layout_marginRight="10.0dip" android1:text="@string/light" />
+            <Switch android1:id="@id/colorpicker_theme_switch" android1:layout_width="wrap_content" android1:layout_height="wrap_content" android1:switchMinWidth="65.0dip" />
+            <TextView android1:textSize="18.0sp" android1:textStyle="bold" android1:textColor="@android:color/black" android1:layout_width="wrap_content" android1:layout_height="wrap_content" android1:layout_marginLeft="10.0dip" android1:text="@string/dark" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android1:id="@id/colorpicker_show_keyboard" android1:layout_width="fill_parent" android1:layout_height="fill_parent">
+        <ImageView android1:id="@id/show_keyboard_icon" android1:padding="20.0dip" android1:visibility="gone" android1:layout_width="60.0dip" android1:layout_height="60.0dip" android1:src="@drawable/theme_chooser_show_hide" android1:adjustViewBounds="true" android1:layout_alignParentRight="true" android1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

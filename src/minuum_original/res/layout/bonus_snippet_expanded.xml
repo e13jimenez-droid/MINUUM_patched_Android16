@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whirlscape.minuum.extras.snippet.SnippetExpandedView android:orientation="vertical" android:id="@id/snippet_expanded_popup" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/snippet_topbar" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <FrameLayout android:id="@id/snippet_tab_indicator_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.875">
+            <com.viewpagerindicator.UnderlinePageIndicator android:id="@id/snippet_tab_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/snippet_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/snippet_delete_container" style="?attr/candidates_key_container_style">
+            <ImageButton android:id="@id/delete_button" android:src="@drawable/icon_delete" style="?attr/candidates_key_style" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/snippet_pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/snippet_category_pager" android:background="#80ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/snippet_collapse_button" android:background="@drawable/snippet_collapse_button" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+    </FrameLayout>
+</com.whirlscape.minuum.extras.snippet.SnippetExpandedView>

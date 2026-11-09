@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/setup_activity_container" android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="@dimen/minuum_logo_margin_top" android:layout_marginBottom="@dimen/minuum_logo_margin_bottom" android:src="@drawable/setup_minuum_logo" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_enable_container" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <ImageView android:id="@id/number_enable" android:layout_width="wrap_content" android:layout_height="@dimen/number_height" android:src="@drawable/setup_number_one_current" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_enable" android:background="@drawable/setup_buttons_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/button_to_number_spacing" android:layout_weight="1.0" android:onClick="enableKeyboard">
+                <ImageView android:id="@id/icon_enable" android:layout_width="0.0dip" android:layout_height="@dimen/icon_height" android:src="@drawable/step_enable_current_selector" android:layout_weight="0.25" />
+                <TextView android:textSize="@dimen/step_text_size" android:id="@id/text_enable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_enable" android:layout_weight="0.75" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_default_container" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <ImageView android:id="@id/number_default" android:layout_width="wrap_content" android:layout_height="@dimen/number_height" android:src="@drawable/setup_number_two_future" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_default" android:background="@drawable/setup_buttons_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/button_to_number_spacing" android:layout_weight="1.0" android:onClick="defaultKeyboard">
+                <ImageView android:id="@id/icon_default" android:layout_width="0.0dip" android:layout_height="@dimen/icon_height" android:src="@drawable/step_default_current_selector" android:layout_weight="0.25" />
+                <TextView android:textSize="@dimen/step_text_size" android:id="@id/text_default" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_default" android:layout_weight="0.75" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_lang_container" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <ImageView android:id="@id/number_lang" android:layout_width="wrap_content" android:layout_height="@dimen/number_height" android:src="@drawable/setup_number_opt_future" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_lang" android:background="@drawable/setup_buttons_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/button_to_number_spacing" android:layout_weight="1.0" android:onClick="enableLanguages">
+                <ImageView android:id="@id/icon_lang" android:layout_width="0.0dip" android:layout_height="@dimen/icon_height" android:src="@drawable/step_lang_current_selector" android:layout_weight="0.25" />
+                <TextView android:textSize="@dimen/step_text_size" android:id="@id/text_lang" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_language" android:layout_weight="0.75" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_theme_container" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <ImageView android:id="@id/number_theme" android:layout_width="wrap_content" android:layout_height="@dimen/number_height" android:src="@drawable/setup_number_opt_future" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_theme" android:background="@drawable/setup_buttons_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/button_to_number_spacing" android:layout_weight="1.0" android:onClick="chooseTheme">
+                <ImageView android:id="@id/icon_theme" android:layout_width="0.0dip" android:layout_height="@dimen/icon_height" android:src="@drawable/step_theme_current_selector" android:layout_weight="0.25" />
+                <TextView android:textSize="@dimen/step_text_size" android:id="@id/text_theme" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_theme" android:layout_weight="0.75" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_start_container" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <ImageView android:id="@id/number_start" android:layout_width="wrap_content" android:layout_height="@dimen/number_height" android:src="@drawable/setup_number_three_future" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/step_start" android:background="@drawable/setup_buttons_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/button_to_number_spacing" android:layout_weight="1.0" android:onClick="goToTutorial">
+                <ImageView android:id="@id/icon_start" android:layout_width="0.0dip" android:layout_height="@dimen/icon_height" android:src="@drawable/step_start_current_selector" android:layout_weight="0.25" />
+                <TextView android:textSize="@dimen/step_text_size" android:id="@id/text_start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_start" android:layout_weight="0.75" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/step_container_height" android:layout_marginLeft="@dimen/step_container_margin_left" android:layout_marginRight="@dimen/step_container_margin_right" android:layout_marginBottom="@dimen/step_container_margin_bottom">
+            <TextView android:textSize="10.0sp" android:id="@id/skip_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="skip setup" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

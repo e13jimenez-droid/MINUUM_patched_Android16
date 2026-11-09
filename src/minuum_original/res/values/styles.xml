@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IAPTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="@style/WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48.0dip</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Widget.IconPageIndicator" parent="@style/Widget">
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+    </style>
+    <style name="MinuumAppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="accent_color">@android:color/black</item>
+    </style>
+    <style name="MinuumAppTheme.NoActionBar" parent="@style/MinuumAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="DarkTheme" parent="@style/MinuumAppTheme">
+        <item name="extract_text_bg_color">@android:color/white</item>
+        <item name="extract_text_font_color">@android:color/black</item>
+        <item name="extract_text_font_hint_color">@color/dark_grey</item>
+        <item name="keyboard_overall_bg">@color/theme_dark_background_color</item>
+        <item name="candidate_bg">@color/theme_dark_candidate_color</item>
+        <item name="candidate_row_bg">@color/theme_dark_candidate_color</item>
+        <item name="primary_keyboard_bg">@android:color/transparent</item>
+        <item name="bottom_bg">@android:color/transparent</item>
+        <item name="bonus_bg">@color/theme_dark_background_color</item>
+        <item name="bonus_row_bg">@android:color/transparent</item>
+        <item name="candidate_modeswitch_overlay">@color/theme_dark_candidate_modeswitch_overlay</item>
+        <item name="candidate_modeswitch_icon">@color/theme_dark_candidate_modeswitch_icon_color</item>
+        <item name="candidate_divider_color">@color/very_transp_black</item>
+        <item name="key_bg_color">@color/theme_dark_key_color</item>
+        <item name="key_pressed_bg_color">@color/theme_dark_key_color_pressed</item>
+        <item name="key_highlight_bg_color">@color/theme_dark_key_highlight_color</item>
+        <item name="key_modifier_bg_color">@color/theme_dark_key_modifier_color</item>
+        <item name="key_spacebar_color">@color/theme_dark_key_modifier_color</item>
+        <item name="key_spacebar_pressed_color">@color/theme_dark_key_modifier_color_pressed</item>
+        <item name="key_2D_shift_del_bg_color">@color/theme_dark_key_modifier_color</item>
+        <item name="key_1D_shift_del_bg_color">@color/theme_dark_key_modifier_color</item>
+        <item name="key_modifier_pressed_bg_color">@color/theme_dark_key_modifier_color_pressed</item>
+        <item name="highlight_color">@color/theme_dark_highlight_color</item>
+        <item name="icon_color">@color/theme_dark_icon_color</item>
+        <item name="font_top_color">@color/theme_dark_font_top_color_dark</item>
+        <item name="font_middle_color">@color/theme_dark_font_middle_color</item>
+        <item name="font_bottom_color">@color/theme_dark_font_bottom_color</item>
+        <item name="font_secondary_color">@color/theme_dark_font_secondary_color</item>
+        <item name="font_spacebar_color">@color/theme_dark_key_highlight_color</item>
+        <item name="font_candidate_color">@android:color/white</item>
+        <item name="font_candidate_faded_color">@color/semi_transp_white</item>
+        <item name="font_candidate_highlight_color">@android:color/black</item>
+        <item name="zoomview_primary_color">@color/theme_dark_zoomview_primary_color</item>
+        <item name="zoomview_primary_color_shadow">@color/theme_dark_zoomview_primary_color_shadow</item>
+        <item name="zoomview_highlight_color">@color/theme_dark_zoomview_highlight_color</item>
+        <item name="zoomview_highlight_color_shadow">@color/theme_dark_zoomview_highlight_color_shadow</item>
+        <item name="zoomview_secondary_color">@color/theme_dark_zoomview_secondary_color</item>
+        <item name="zoomview_font_color">@color/theme_dark_zoomview_font_color</item>
+        <item name="zoomview_font_highlight_color">@color/theme_dark_zoomview_font_highlight_color</item>
+        <item name="bonus_snippet_font_color">@color/theme_dark_font_top_color_dark</item>
+        <item name="finger_shadow_color">@color/theme_dark_finger_shadow_color</item>
+        <item name="bonus_snippet_tab_color">@color/theme_dark_snippet_tab_color</item>
+        <item name="bonus_key_style">@style/ExtrasKey</item>
+        <item name="bonus_snippet_key_color">@android:color/transparent</item>
+        <item name="bonus_snippet_key_pressed_color">@color/theme_dark_snippet_key_pressed_color</item>
+        <item name="no_corner_radius">0.0dip</item>
+        <item name="light_radius">2.0dip</item>
+        <item name="heavy_radius">4.0dip</item>
+        <item name="spacebar_vpadding">0.0dip</item>
+        <item name="mode_choices_button_style">@style/ModeChoicesButton</item>
+        <item name="options_button_style">@style/OptionsViewButton</item>
+        <item name="extract_text_container_style">@style/ExtractTextContainerStyle</item>
+        <item name="extract_text_edit_text_style">@style/ExtractTextEditTextStyle</item>
+        <item name="candidates_row_container_style">@style/CandidateRowContainer</item>
+        <item name="candidates_key_container_style">@style/CandidatesKeyContainer</item>
+        <item name="candidates_togglebutton_container_style">@style/CandidatesToggleButtonContainer</item>
+        <item name="candidates_key_style">@style/CandidatesKey</item>
+        <item name="candidates_key_secondary_style">@style/KeySecondary</item>
+        <item name="candidates_key_overlay_style">@style/KeyOverlay</item>
+        <item name="candidates_disambig_selector_style">@style/CandidatesKeyBase</item>
+        <item name="candidates_container_style">@style/CandidatesContainer</item>
+        <item name="candidates_inner_container_style">@style/CandidatesInnerContainer</item>
+        <item name="candidates_text_style">@style/CandidateTextView</item>
+        <item name="candidates_text_container_style">@style/CandidateTextContainer</item>
+        <item name="candidates_score_style_a">@style/CandidateTextScoreView.A</item>
+        <item name="candidates_score_style_b">@style/CandidateTextScoreView.B</item>
+        <item name="candidates_score_style_c">@style/CandidateTextScoreView.C</item>
+        <item name="candidates_lang_style">@style/CandidateTextScoreView.Lang</item>
+        <item name="candidates_divider_style">@style/CandidateDivider</item>
+        <item name="primary_keyboard_view_container_style">@style/PrimaryKeyboardContainer</item>
+        <item name="primary_keyboard_view_style">@style/PrimaryKeyboard</item>
+        <item name="primary_keyboard_key_modifier_style">@style/ModifierKey</item>
+        <item name="primary_keyboard_key_container_style">@style/ModifierKeyContainer</item>
+        <item name="primary_keyboard_key_secondary_style">@style/KeySecondary</item>
+        <item name="primary_keyboard_key_overlay_style">@style/KeyOverlay</item>
+        <item name="current_lang_indicator_style">@style/CurrentLangIndicatorStyle</item>
+        <item name="bottom_container_style">@style/BottomContainer</item>
+        <item name="bottom_key_container_style">@style/BottomKeyContainer</item>
+        <item name="bottom_key_style">@style/BottomKey</item>
+        <item name="bottom_key_secondary_style">@style/KeySecondaryBottom</item>
+        <item name="bottom_key_space_container_style">@style/BottomKeyContainer.Space</item>
+    </style>
+    <style name="LightTheme" parent="@style/DarkTheme">
+        <item name="keyboard_overall_bg">@android:color/transparent</item>
+        <item name="candidate_bg">@color/theme_light_candidate_color</item>
+        <item name="candidate_row_bg">@color/theme_light_candidate_color</item>
+        <item name="primary_keyboard_bg">@color/theme_light_background_color</item>
+        <item name="bottom_bg">@color/theme_light_background_color</item>
+        <item name="bonus_bg">@color/theme_light_background_color</item>
+        <item name="candidate_modeswitch_overlay">@color/theme_light_candidate_modeswitch_overlay</item>
+        <item name="candidate_modeswitch_icon">@color/theme_light_candidate_modeswitch_icon_color</item>
+        <item name="key_bg_color">@color/theme_light_key_color</item>
+        <item name="key_pressed_bg_color">@color/theme_light_key_color_pressed</item>
+        <item name="key_highlight_bg_color">@color/theme_light_key_highlight_color</item>
+        <item name="key_modifier_bg_color">@color/theme_light_key_modifier_color</item>
+        <item name="key_spacebar_color">@color/theme_light_key_modifier_color</item>
+        <item name="key_spacebar_pressed_color">@color/theme_light_key_modifier_color_pressed</item>
+        <item name="key_2D_shift_del_bg_color">@color/theme_light_key_modifier_color</item>
+        <item name="key_1D_shift_del_bg_color">@color/theme_light_key_modifier_color</item>
+        <item name="key_modifier_pressed_bg_color">@color/theme_light_key_modifier_color_pressed</item>
+        <item name="highlight_color">@color/theme_light_highlight_color</item>
+        <item name="icon_color">@color/theme_light_icon_color</item>
+        <item name="font_top_color">@color/theme_light_font_top_color</item>
+        <item name="font_middle_color">@color/theme_light_font_middle_color_</item>
+        <item name="font_bottom_color">@color/theme_light_font_bottom_color</item>
+        <item name="font_secondary_color">@color/theme_light_font_secondary_color</item>
+        <item name="font_spacebar_color">@color/theme_light_key_highlight_color</item>
+        <item name="font_candidate_color">@android:color/black</item>
+        <item name="font_candidate_faded_color">@color/semi_transp_black</item>
+        <item name="font_candidate_highlight_color">@android:color/white</item>
+        <item name="zoomview_primary_color">@color/theme_light_zoomview_primary_color</item>
+        <item name="zoomview_primary_color_shadow">@color/theme_light_zoomview_primary_color_shadow</item>
+        <item name="zoomview_highlight_color">@color/theme_light_zoomview_highlight_color</item>
+        <item name="zoomview_highlight_color_shadow">@color/theme_light_zoomview_highlight_color_shadow</item>
+        <item name="zoomview_secondary_color">@color/theme_light_zoomview_secondary_color</item>
+        <item name="zoomview_font_color">@color/theme_light_zoomview_font_color</item>
+        <item name="zoomview_font_highlight_color">@color/theme_light_zoomview_font_highlight_color</item>
+        <item name="bonus_snippet_font_color">@android:color/black</item>
+        <item name="finger_shadow_color">@color/theme_light_finger_shadow_color</item>
+        <item name="bonus_snippet_tab_color">@color/theme_light_snippet_tab_color</item>
+        <item name="bonus_snippet_key_pressed_color">@color/theme_light_snippet_key_pressed_color</item>
+    </style>
+    <style name="DarkMaterialTheme" parent="@style/DarkTheme">
+        <item name="keyboard_overall_bg">#ff394249</item>
+        <item name="candidate_bg">@android:color/transparent</item>
+        <item name="candidate_row_bg">#ff2c3338</item>
+        <item name="bottom_bg">@android:color/transparent</item>
+        <item name="bonus_bg">#ff394249</item>
+        <item name="key_bg_color">@android:color/transparent</item>
+        <item name="key_pressed_bg_color">@android:color/transparent</item>
+        <item name="key_highlight_bg_color">#30ffffff</item>
+        <item name="key_modifier_bg_color">@android:color/transparent</item>
+        <item name="key_spacebar_color">#ff82cac3</item>
+        <item name="key_spacebar_pressed_color">#ff62c2b5</item>
+        <item name="key_2D_shift_del_bg_color">@android:color/transparent</item>
+        <item name="key_1D_shift_del_bg_color">@android:color/transparent</item>
+        <item name="key_modifier_pressed_bg_color">@color/theme_dark_key_modifier_color_pressed</item>
+        <item name="highlight_color">#ff82cac3</item>
+        <item name="icon_color">#ff82cac3</item>
+        <item name="font_top_color">#ffffffff</item>
+        <item name="font_middle_color">#ffffffff</item>
+        <item name="font_bottom_color">#ffffffff</item>
+        <item name="font_secondary_color">#ffaaaaaa</item>
+        <item name="font_spacebar_color">#d0ffffff</item>
+        <item name="font_candidate_color">#ffffffff</item>
+        <item name="font_candidate_faded_color">#d0ffffff</item>
+        <item name="font_candidate_highlight_color">#ff000000</item>
+        <item name="zoomview_primary_color">#ff2c3338</item>
+        <item name="zoomview_primary_color_shadow">#ff202d2f</item>
+        <item name="zoomview_highlight_color">#ff82cac3</item>
+        <item name="zoomview_highlight_color_shadow">#ff62c2b5</item>
+        <item name="zoomview_secondary_color">#ff202d2f</item>
+        <item name="zoomview_font_color">#ffffffff</item>
+        <item name="zoomview_font_highlight_color">#ff000000</item>
+        <item name="spacebar_vpadding">8.0dip</item>
+    </style>
+    <style name="LightMaterialTheme" parent="@style/DarkMaterialTheme">
+        <item name="keyboard_overall_bg">#ffedeff1</item>
+        <item name="candidate_row_bg">#ffe4e7e9</item>
+        <item name="bonus_bg">#ffedeff1</item>
+        <item name="key_highlight_bg_color">#20000000</item>
+        <item name="key_spacebar_color">#ff4cb5ab</item>
+        <item name="key_spacebar_pressed_color">#ff3ca092</item>
+        <item name="key_modifier_pressed_bg_color">@color/theme_light_key_modifier_color_pressed</item>
+        <item name="highlight_color">#ff4cb5ab</item>
+        <item name="icon_color">#ff4cb5ab</item>
+        <item name="font_top_color">#ff21272b</item>
+        <item name="font_middle_color">#ff21272b</item>
+        <item name="font_bottom_color">#ff21272b</item>
+        <item name="font_secondary_color">#ff888888</item>
+        <item name="font_spacebar_color">#d0ffffff</item>
+        <item name="font_candidate_color">@android:color/black</item>
+        <item name="font_candidate_faded_color">@color/semi_transp_black</item>
+        <item name="font_candidate_highlight_color">@android:color/white</item>
+        <item name="zoomview_primary_color">#ffe4e7e9</item>
+        <item name="zoomview_primary_color_shadow">#ffd0d5d9</item>
+        <item name="zoomview_highlight_color">#ff4cb5ab</item>
+        <item name="zoomview_highlight_color_shadow">#ff3ca092</item>
+        <item name="zoomview_secondary_color">#ffd0d5d9</item>
+        <item name="zoomview_font_color">#ff21272b</item>
+        <item name="zoomview_font_highlight_color">#ffffffff</item>
+    </style>
+    <style name="BlueMaterialTheme" parent="@style/DarkMaterialTheme">
+        <item name="keyboard_overall_bg">#ff03a9f4</item>
+        <item name="candidate_row_bg">#20222222</item>
+        <item name="bonus_bg">#ff03a9f4</item>
+        <item name="key_spacebar_color">#50ffffff</item>
+        <item name="key_spacebar_pressed_color">#d0ffffff</item>
+        <item name="key_modifier_pressed_bg_color">#d0000000</item>
+        <item name="highlight_color">#ffffffff</item>
+        <item name="icon_color">#ffffffff</item>
+        <item name="font_top_color">#ffffffff</item>
+        <item name="font_middle_color">#ffffffff</item>
+        <item name="font_bottom_color">#ffffffff</item>
+        <item name="font_secondary_color">#d0ffffff</item>
+        <item name="font_spacebar_color">#d0ffffff</item>
+        <item name="font_candidate_color">#ffffffff</item>
+        <item name="font_candidate_faded_color">#d0ffffff</item>
+        <item name="font_candidate_highlight_color">#ff000000</item>
+        <item name="zoomview_primary_color">#ff0099e0</item>
+        <item name="zoomview_primary_color_shadow">#ff0089c5</item>
+        <item name="zoomview_highlight_color">#ffffffff</item>
+        <item name="zoomview_highlight_color_shadow">#ffeeeeee</item>
+        <item name="zoomview_secondary_color">#ff0089c5</item>
+        <item name="zoomview_font_color">#ffffffff</item>
+        <item name="zoomview_font_highlight_color">#ff000000</item>
+    </style>
+    <style name="GreenMaterialTheme" parent="@style/BlueMaterialTheme">
+        <item name="keyboard_overall_bg">#ff009688</item>
+        <item name="bonus_bg">#ff009688</item>
+        <item name="zoomview_primary_color">#ff00867b</item>
+        <item name="zoomview_primary_color_shadow">#ff00766b</item>
+        <item name="zoomview_secondary_color">#ff00766b</item>
+    </style>
+    <style name="MagentaMaterialTheme" parent="@style/BlueMaterialTheme">
+        <item name="keyboard_overall_bg">#ffe61875</item>
+        <item name="bonus_bg">#ffe61875</item>
+        <item name="zoomview_primary_color">#ffd60865</item>
+        <item name="zoomview_primary_color_shadow">#ffc60055</item>
+        <item name="zoomview_secondary_color">#ffc60055</item>
+    </style>
+    <style name="PurpleMaterialTheme" parent="@style/BlueMaterialTheme">
+        <item name="keyboard_overall_bg">#ff8e4497</item>
+        <item name="bonus_bg">#ff8e4497</item>
+        <item name="zoomview_primary_color">#ff7e3487</item>
+        <item name="zoomview_primary_color_shadow">#ff6e2477</item>
+        <item name="zoomview_secondary_color">#ff6e2477</item>
+    </style>
+    <style name="FancyBlueTheme" parent="@style/DarkTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_blue</item>
+        <item name="candidate_bg">#50ffffff</item>
+        <item name="candidate_row_bg">@android:color/transparent</item>
+        <item name="primary_keyboard_bg">@android:color/transparent</item>
+        <item name="bottom_bg">@android:color/transparent</item>
+        <item name="bonus_bg">#ff5997cf</item>
+        <item name="candidate_modeswitch_overlay">@color/theme_dark_candidate_modeswitch_overlay</item>
+        <item name="candidate_modeswitch_icon">@color/theme_dark_candidate_modeswitch_icon_color</item>
+        <item name="candidate_divider_color">#50ffffff</item>
+        <item name="key_bg_color">@android:color/transparent</item>
+        <item name="key_pressed_bg_color">@android:color/transparent</item>
+        <item name="key_highlight_bg_color">#50ffffff</item>
+        <item name="key_modifier_bg_color">#50ffffff</item>
+        <item name="key_spacebar_color">#50ffffff</item>
+        <item name="key_spacebar_pressed_color">#d0ffffff</item>
+        <item name="key_2D_shift_del_bg_color">@android:color/transparent</item>
+        <item name="key_1D_shift_del_bg_color">#50ffffff</item>
+        <item name="key_modifier_pressed_bg_color">#d0ffffff</item>
+        <item name="highlight_color">#d0ffffff</item>
+        <item name="icon_color">#ffffffff</item>
+        <item name="font_top_color">#ffffffff</item>
+        <item name="font_middle_color">#ffffffff</item>
+        <item name="font_bottom_color">#ffffffff</item>
+        <item name="font_secondary_color">@color/theme_fancy_font_secondary_color</item>
+        <item name="font_spacebar_color">#d0ffffff</item>
+        <item name="font_candidate_color">#ffffffff</item>
+        <item name="font_candidate_faded_color">#d0ffffff</item>
+        <item name="font_candidate_highlight_color">#ff000000</item>
+        <item name="zoomview_primary_color">#ff5997cf</item>
+        <item name="zoomview_primary_color_shadow">#ff4987bf</item>
+        <item name="zoomview_highlight_color">#ffffffff</item>
+        <item name="zoomview_highlight_color_shadow">#ffeeeeee</item>
+        <item name="zoomview_secondary_color">#ff4987bf</item>
+        <item name="zoomview_font_color">#ffffffff</item>
+        <item name="zoomview_font_highlight_color">#ff000000</item>
+        <item name="finger_shadow_color">@color/theme_blue_finger_shadow_color</item>
+        <item name="no_corner_radius">2.0dip</item>
+        <item name="candidates_row_container_style">@style/CandidateRowContainerIOS</item>
+        <item name="candidates_key_container_style">@style/CandidatesKeyContainerIOS</item>
+        <item name="candidates_key_style">@style/CandidatesKeyIOS</item>
+        <item name="candidates_disambig_selector_style">@style/CandidatesKeyBaseIOS</item>
+    </style>
+    <style name="FancyRedTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_red</item>
+        <item name="bonus_bg">#ffe7695a</item>
+        <item name="zoomview_primary_color">#ffe7695a</item>
+        <item name="zoomview_primary_color_shadow">#ffd7594a</item>
+        <item name="zoomview_secondary_color">#ffd7594a</item>
+    </style>
+    <style name="FancyOrangeTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_orange</item>
+        <item name="bonus_bg">#ffe89a3c</item>
+        <item name="zoomview_primary_color">#ffe89a3c</item>
+        <item name="zoomview_primary_color_shadow">#ffd88a2c</item>
+        <item name="zoomview_secondary_color">#ffd88a2c</item>
+    </style>
+    <style name="FancyYellowTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_yellow</item>
+        <item name="bonus_bg">#fff2c73d</item>
+        <item name="zoomview_primary_color">#fff2c73d</item>
+        <item name="zoomview_primary_color_shadow">#ffe2b72d</item>
+        <item name="zoomview_secondary_color">#ffe2b72d</item>
+    </style>
+    <style name="FancyGreenTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_green</item>
+        <item name="bonus_bg">#ff5cc34c</item>
+        <item name="zoomview_primary_color">#ff5cc34c</item>
+        <item name="zoomview_primary_color_shadow">#ff4cb33c</item>
+        <item name="zoomview_secondary_color">#ff4cb33c</item>
+    </style>
+    <style name="FancyAquaTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_teal</item>
+        <item name="bonus_bg">#ff5eb99a</item>
+        <item name="zoomview_primary_color">#ff5eb99a</item>
+        <item name="zoomview_primary_color_shadow">#ff4ea98a</item>
+        <item name="zoomview_secondary_color">#ff4ea98a</item>
+    </style>
+    <style name="FancyPurpleTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_purple</item>
+        <item name="bonus_bg">#ff9277b9</item>
+        <item name="zoomview_primary_color">#ff9277b9</item>
+        <item name="zoomview_primary_color_shadow">#ff8267a9</item>
+        <item name="zoomview_secondary_color">#ff8267a9</item>
+    </style>
+    <style name="FancyRoseTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_magenta</item>
+        <item name="bonus_bg">#ffca6d9f</item>
+        <item name="zoomview_primary_color">#ffca6d9f</item>
+        <item name="zoomview_primary_color_shadow">#ffba5d8f</item>
+        <item name="zoomview_secondary_color">#ffba5d8f</item>
+    </style>
+    <style name="FancyPinkTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_pink</item>
+        <item name="bonus_bg">#fff04bc4</item>
+        <item name="zoomview_primary_color">#fff04bc4</item>
+        <item name="zoomview_primary_color_shadow">#ffe03bb4</item>
+        <item name="zoomview_secondary_color">#ffe03bb4</item>
+    </style>
+    <style name="FancyDarkPurpleTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_dark_purple</item>
+        <item name="bonus_bg">#ff321657</item>
+        <item name="zoomview_primary_color">#ff321657</item>
+        <item name="zoomview_primary_color_shadow">#ff220647</item>
+        <item name="zoomview_secondary_color">#ff220647</item>
+    </style>
+    <style name="FancyGraphiteTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_graphite</item>
+        <item name="bonus_bg">#ff484d56</item>
+        <item name="zoomview_primary_color">#ff484d56</item>
+        <item name="zoomview_primary_color_shadow">#ff383d46</item>
+        <item name="zoomview_secondary_color">#ff383d46</item>
+    </style>
+    <style name="FancyDarkMagentaTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_dark_magenta</item>
+        <item name="bonus_bg">#ff55163d</item>
+        <item name="zoomview_primary_color">#ff55163d</item>
+        <item name="zoomview_primary_color_shadow">#ff45062d</item>
+        <item name="zoomview_secondary_color">#ff45062d</item>
+    </style>
+    <style name="FancyDarkAquaTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_background_dark_aqua</item>
+        <item name="bonus_bg">#ff285d4d</item>
+        <item name="zoomview_primary_color">#ff285d4d</item>
+        <item name="zoomview_primary_color_shadow">#ff184d3d</item>
+        <item name="zoomview_secondary_color">#ff184d3d</item>
+    </style>
+    <style name="RhombusBlueTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_rhom_blue</item>
+        <item name="bonus_bg">#ff11557d</item>
+        <item name="zoomview_primary_color">#ff11557d</item>
+        <item name="zoomview_primary_color_shadow">#ff01456d</item>
+        <item name="zoomview_secondary_color">#ff01456d</item>
+    </style>
+    <style name="RhombusGreenTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_rhom_green</item>
+        <item name="bonus_bg">#ff217f40</item>
+        <item name="zoomview_primary_color">#ff217f40</item>
+        <item name="zoomview_primary_color_shadow">#ff116f30</item>
+        <item name="zoomview_secondary_color">#ff116f30</item>
+    </style>
+    <style name="RhombusOrangeTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_rhom_orange</item>
+        <item name="bonus_bg">#ffd75326</item>
+        <item name="zoomview_primary_color">#ffd75326</item>
+        <item name="zoomview_primary_color_shadow">#ffc74316</item>
+        <item name="zoomview_secondary_color">#ffc74316</item>
+    </style>
+    <style name="RhombusPinkTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_rhom_pink</item>
+        <item name="bonus_bg">#ffdf244d</item>
+        <item name="zoomview_primary_color">#ffdf244d</item>
+        <item name="zoomview_primary_color_shadow">#ffcf143d</item>
+        <item name="zoomview_secondary_color">#ffcf143d</item>
+    </style>
+    <style name="ColourBlurGreenTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_cblur_green</item>
+        <item name="bonus_bg">#ff299a8b</item>
+        <item name="zoomview_primary_color">#ff299a8b</item>
+        <item name="zoomview_primary_color_shadow">#ff198a7b</item>
+        <item name="zoomview_secondary_color">#ff198a7b</item>
+    </style>
+    <style name="ColourBlurNaturalTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_cblur_natural</item>
+        <item name="bonus_bg">#ffdb8c59</item>
+        <item name="zoomview_primary_color">#ffdb8c59</item>
+        <item name="zoomview_primary_color_shadow">#ffcb7c49</item>
+        <item name="zoomview_secondary_color">#ffcb7c49</item>
+    </style>
+    <style name="ColourBlurOrangeTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_cblur_orange</item>
+        <item name="bonus_bg">#ffdc988b</item>
+        <item name="zoomview_primary_color">#ffdc988b</item>
+        <item name="zoomview_primary_color_shadow">#ffcc887b</item>
+        <item name="zoomview_secondary_color">#ffcc887b</item>
+    </style>
+    <style name="ColourBlurPurpleTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_cblur_purple</item>
+        <item name="bonus_bg">#ff9082be</item>
+        <item name="zoomview_primary_color">#ff9082be</item>
+        <item name="zoomview_primary_color_shadow">#ff8072ae</item>
+        <item name="zoomview_secondary_color">#ff8072ae</item>
+    </style>
+    <style name="NatureGroundTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_nat_ground</item>
+        <item name="bonus_bg">#ff8e6a37</item>
+        <item name="zoomview_primary_color">#ff8e6a37</item>
+        <item name="zoomview_primary_color_shadow">#ff7e5a27</item>
+        <item name="zoomview_secondary_color">#ff7e5a27</item>
+    </style>
+    <style name="NatureLeafTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_nat_leaf</item>
+        <item name="bonus_bg">#ff557c38</item>
+        <item name="zoomview_primary_color">#ff557c38</item>
+        <item name="zoomview_primary_color_shadow">#ff456c28</item>
+        <item name="zoomview_secondary_color">#ff456c28</item>
+    </style>
+    <style name="NatureRockTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_nat_rock</item>
+        <item name="bonus_bg">#ffcb6834</item>
+        <item name="zoomview_primary_color">#ffcb6834</item>
+        <item name="zoomview_primary_color_shadow">#ffbb5824</item>
+        <item name="zoomview_secondary_color">#ffbb5824</item>
+    </style>
+    <style name="NatureWaterTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_nat_water</item>
+        <item name="bonus_bg">#ff3e556c</item>
+        <item name="zoomview_primary_color">#ff3e556c</item>
+        <item name="zoomview_primary_color_shadow">#ff2e455c</item>
+        <item name="zoomview_secondary_color">#ff2e455c</item>
+    </style>
+    <style name="GeoGreenTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_geo_green</item>
+        <item name="bonus_bg">#ff4a9a8d</item>
+        <item name="zoomview_primary_color">#ff4a9a8d</item>
+        <item name="zoomview_primary_color_shadow">#ff3a8a7d</item>
+        <item name="zoomview_secondary_color">#ff3a8a7d</item>
+    </style>
+    <style name="GeoOrangeTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_geo_orange</item>
+        <item name="bonus_bg">#fff9ac70</item>
+        <item name="zoomview_primary_color">#fff9ac70</item>
+        <item name="zoomview_primary_color_shadow">#ffe99c60</item>
+        <item name="zoomview_secondary_color">#ffe99c60</item>
+    </style>
+    <style name="GeoPinkTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_geo_pink</item>
+        <item name="bonus_bg">#ffde7162</item>
+        <item name="zoomview_primary_color">#ffde7162</item>
+        <item name="zoomview_primary_color_shadow">#ffce6152</item>
+        <item name="zoomview_secondary_color">#ffce6152</item>
+    </style>
+    <style name="GeoPurpleTheme" parent="@style/FancyBlueTheme">
+        <item name="keyboard_overall_bg">@drawable/theme_geo_purple</item>
+        <item name="bonus_bg">#ff7464ab</item>
+        <item name="zoomview_primary_color">#ff7464ab</item>
+        <item name="zoomview_primary_color_shadow">#ff64549b</item>
+        <item name="zoomview_secondary_color">#ff64549b</item>
+    </style>
+    <style name="ImageTheme" parent="@style/DarkTheme">
+        <item name="keyboard_overall_bg">@android:color/transparent</item>
+        <item name="candidate_bg">#40eeeeee</item>
+        <item name="primary_keyboard_bg">#00000000</item>
+        <item name="bottom_bg">#00000000</item>
+        <item name="bonus_bg">#00000000</item>
+        <item name="candidate_modeswitch_overlay">@color/theme_dark_candidate_modeswitch_overlay</item>
+        <item name="candidate_modeswitch_icon">@color/theme_dark_candidate_modeswitch_icon_color</item>
+        <item name="key_bg_color">#40000000</item>
+        <item name="key_pressed_bg_color">#80000000</item>
+        <item name="key_highlight_bg_color">#80000000</item>
+        <item name="key_modifier_bg_color">#40000000</item>
+        <item name="key_spacebar_color">#40000000</item>
+        <item name="key_spacebar_pressed_color">#80000000</item>
+        <item name="key_2D_shift_del_bg_color">#40000000</item>
+        <item name="key_1D_shift_del_bg_color">#40000000</item>
+        <item name="key_modifier_pressed_bg_color">#80000000</item>
+        <item name="highlight_color">@color/theme_dark_highlight_color</item>
+        <item name="icon_color">@color/theme_dark_icon_color</item>
+        <item name="font_top_color">@android:color/white</item>
+        <item name="font_middle_color">@android:color/white</item>
+        <item name="font_bottom_color">@android:color/white</item>
+        <item name="font_secondary_color">@color/theme_dark_font_secondary_color</item>
+        <item name="font_spacebar_color">@color/semi_transp_black</item>
+        <item name="font_candidate_color">@android:color/white</item>
+        <item name="font_candidate_faded_color">@color/semi_transp_white</item>
+        <item name="font_candidate_highlight_color">@android:color/black</item>
+        <item name="zoomview_primary_color">@color/theme_dark_zoomview_primary_color</item>
+        <item name="zoomview_primary_color_shadow">@color/theme_dark_zoomview_primary_color_shadow</item>
+        <item name="zoomview_highlight_color">@color/theme_dark_zoomview_highlight_color</item>
+        <item name="zoomview_highlight_color_shadow">@color/theme_dark_zoomview_highlight_color_shadow</item>
+        <item name="zoomview_secondary_color">@color/theme_dark_zoomview_secondary_color</item>
+        <item name="zoomview_font_color">@color/theme_dark_zoomview_font_color</item>
+        <item name="zoomview_font_highlight_color">@color/theme_dark_zoomview_font_highlight_color</item>
+        <item name="bonus_snippet_font_color">@android:color/black</item>
+        <item name="finger_shadow_color">@color/theme_dark_finger_shadow_color</item>
+        <item name="bonus_snippet_tab_color">@color/theme_dark_snippet_tab_color</item>
+        <item name="bonus_snippet_key_pressed_color">@color/theme_dark_snippet_key_pressed_color</item>
+    </style>
+    <style name="CustomTheme" parent="@style/BlueMaterialTheme" />
+    <style name="AnimationTheme" parent="@style/BlueMaterialTheme" />
+    <style name="ChameleonTheme" parent="@style/BlueMaterialTheme" />
+    <style name="DayNightTheme" parent="@style/BlueMaterialTheme" />
+    <style name="RandomTheme" parent="@style/DarkTheme" />
+    <style name="PeaceTheme" parent="@style/DarkTheme">
+        <item name="extract_text_bg_color">@android:color/black</item>
+        <item name="extract_text_font_color">@android:color/white</item>
+        <item name="extract_text_font_hint_color">@color/dark_grey</item>
+        <item name="keyboard_overall_bg">@android:color/transparent</item>
+        <item name="candidate_bg">@color/theme_peace_candidate_color</item>
+        <item name="primary_keyboard_bg">@color/theme_peace_background_color</item>
+        <item name="bottom_bg">@color/theme_peace_background_color</item>
+        <item name="bonus_bg">@color/theme_peace_background_color</item>
+        <item name="key_bg_color">@color/theme_peace_key_color</item>
+        <item name="key_pressed_bg_color">@color/theme_peace_key_color_pressed</item>
+        <item name="key_highlight_bg_color">@color/theme_peace_key_highlight_color</item>
+        <item name="key_modifier_bg_color">@color/theme_peace_key_modifier_color</item>
+        <item name="key_spacebar_color">@color/theme_peace_key_modifier_color</item>
+        <item name="key_spacebar_pressed_color">@color/theme_peace_key_modifier_color_pressed</item>
+        <item name="key_2D_shift_del_bg_color">@color/theme_peace_key_modifier_color</item>
+        <item name="key_1D_shift_del_bg_color">@color/theme_peace_background_color</item>
+        <item name="key_modifier_pressed_bg_color">@color/theme_peace_key_modifier_color_pressed</item>
+        <item name="highlight_color">@color/theme_peace_highlight_color</item>
+        <item name="icon_color">@color/theme_peace_icon_color</item>
+        <item name="font_top_color">@color/theme_peace_font_top_color</item>
+        <item name="font_middle_color">@color/theme_peace_font_middle_color</item>
+        <item name="font_bottom_color">@color/theme_peace_font_bottom_color</item>
+        <item name="font_secondary_color">@color/theme_peace_font_secondary_color</item>
+        <item name="font_spacebar_color">@color/theme_peace_key_highlight_color</item>
+        <item name="font_candidate_color">@android:color/white</item>
+        <item name="font_candidate_faded_color">@color/semi_transp_white</item>
+        <item name="font_candidate_highlight_color">@android:color/black</item>
+        <item name="zoomview_primary_color">@color/theme_peace_zoomview_primary_color</item>
+        <item name="zoomview_primary_color_shadow">@color/theme_peace_zoomview_primary_color_shadow</item>
+        <item name="zoomview_highlight_color">@color/theme_peace_zoomview_highlight_color</item>
+        <item name="zoomview_highlight_color_shadow">@color/theme_peace_zoomview_highlight_color_shadow</item>
+        <item name="zoomview_secondary_color">@color/theme_peace_zoomview_secondary_color</item>
+        <item name="zoomview_font_color">@color/theme_peace_zoomview_font_color</item>
+        <item name="zoomview_font_highlight_color">@color/theme_peace_zoomview_font_highlight_color</item>
+        <item name="bonus_snippet_font_color">@color/theme_peace_font_top_color</item>
+        <item name="finger_shadow_color">@color/theme_peace_finger_shadow_color</item>
+        <item name="candidates_inner_container_style">@style/CandidatesInnerContainer.Peace</item>
+        <item name="bottom_key_container_style">@style/BottomKeyContainer.Peace</item>
+        <item name="bottom_key_space_container_style">@style/BottomKeyContainer.Peace.Space</item>
+    </style>
+    <style name="ExtractTextContainerStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?extract_text_bg_color</item>
+    </style>
+    <style name="ExtractTextEditTextStyle">
+        <item name="android:textColor">?extract_text_font_color</item>
+        <item name="android:textColorHint">?extract_text_font_hint_color</item>
+        <item name="android:gravity">top</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="CandidateRowContainerIOS">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="CandidateRowContainer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="CandidatesKeyContainer">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.125</item>
+    </style>
+    <style name="CandidatesKeyContainerIOS">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.125</item>
+    </style>
+    <style name="CandidatesToggleButtonContainer">
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.1</item>
+    </style>
+    <style name="CandidatesKeyBaseIOS">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="CandidatesKeyBase">
+        <item name="android:background">?candidate_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="CandidatesKey" parent="@style/CandidatesKeyBase">
+        <item name="android:tint">?icon_color</item>
+    </style>
+    <style name="CandidatesKeyIOS" parent="@style/CandidatesKeyBaseIOS">
+        <item name="android:tint">?icon_color</item>
+    </style>
+    <style name="CandidatesContainer">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.75</item>
+    </style>
+    <style name="CandidatesInnerContainer">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CandidatesInnerContainer.Peace" parent="@style/CandidatesInnerContainer">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="CandidateTextContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CandidateTextView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ffff0000</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">60.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CandidateTextScoreView">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CandidateTextScoreView.A" parent="@style/CandidateTextScoreView">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="CandidateTextScoreView.B" parent="@style/CandidateTextScoreView">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="CandidateTextScoreView.C" parent="@style/CandidateTextScoreView">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="CandidateTextScoreView.Lang" parent="@style/CandidateTextScoreView">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="CandidateDivider">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="PrimaryKeyboardContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PrimaryKeyboard">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ModifierKeyContainer">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="ModifierKey">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">?icon_color</item>
+    </style>
+    <style name="CurrentLangIndicatorStyle">
+        <item name="android:textSize">7.0pt</item>
+    </style>
+    <style name="BottomContainer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?bottom_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="BottomKeyContainer">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.125</item>
+    </style>
+    <style name="BottomKey">
+        <item name="android:textSize">7.0pt</item>
+        <item name="android:textColor">?font_spacebar_color</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">?icon_color</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="BottomKeyContainer.Space" parent="@style/BottomKeyContainer">
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="BottomKeyContainer.Peace" parent="@style/BottomKeyContainer">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_weight">0.2</item>
+    </style>
+    <style name="BottomKeyContainer.Peace.Space" parent="@style/BottomKeyContainer.Peace">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="ExtrasKey">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">3.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">?icon_color</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="KeyOverlay">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="KeySecondary">
+        <item name="android:layout_width">10.0dip</item>
+        <item name="android:layout_height">10.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:tint">?icon_color</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="KeySecondaryBottom">
+        <item name="android:layout_width">10.0dip</item>
+        <item name="android:layout_height">10.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:tint">?icon_color</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="CandidateRowContainerPeace">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?primary_keyboard_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="ModeChoicesButton">
+        <item name="android:layout_width">@dimen/mode_choices_choice_width</item>
+        <item name="android:layout_height">@dimen/mode_choices_choice_height</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:tint">?icon_color</item>
+    </style>
+    <style name="OptionsViewButton">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">?icon_color</item>
+    </style>
+    <style name="ZoomViewTextView">
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">27.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ZoomViewTextViewBeta" parent="@style/ZoomViewTextView">
+        <item name="android:textSize">28.0dip</item>
+    </style>
+    <style name="ZoomViewTextViewAlpha" parent="@style/ZoomViewTextView">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="ZoomViewTextViewBetaWatch" parent="@style/ZoomViewTextView">
+        <item name="android:textSize">20.0dip</item>
+    </style>
+    <style name="ZoomViewTextViewAlphaWatch" parent="@style/ZoomViewTextView">
+        <item name="android:textSize">26.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="ZoomViewTextViewTablet">
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="ZoomViewTextViewBetaTablet" parent="@style/ZoomViewTextViewTablet">
+        <item name="android:textSize">38.0dip</item>
+    </style>
+    <style name="ZoomViewTextViewAlphaTablet" parent="@style/ZoomViewTextViewTablet">
+        <item name="android:textSize">44.0dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="ThinLine">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0px</item>
+    </style>
+    <style name="HeavyLine">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">3.0px</item>
+    </style>
+    <style name="LightThinLine">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="TutorialText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TutorialBox">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/tutorial_box_background</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="TutorialOkButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/tutorial_rect_blue</item>
+        <item name="android:layout_width">80.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+        <item name="android:text">@string/tutorial_button_ok</item>
+    </style>
+    <style name="TutorialPointyBit">
+        <item name="android:layout_width">44.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/tutorial_dark_triangle</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+    <style name="ActionViewSideContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">100.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ActionViewContainer">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#bbb7def0</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0px</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="ActionViewImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LanguageDownloaderListItem">
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+    </style>
+</resources>

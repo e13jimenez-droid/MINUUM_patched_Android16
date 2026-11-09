@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="extrakeys">
+        <item>emoji</item>
+        <item>cursor</item>
+        <item>tools</item>
+        <item>search</item>
+        <item>stats</item>
+    </string-array>
+    <string-array name="extranames">
+        <item>Emoji Panel</item>
+        <item>Cursor Control</item>
+        <item>Clipboard Tools</item>
+        <item>Search &amp; Share</item>
+        <item>Typing Speed</item>
+    </string-array>
+    <string-array name="theme_names">
+        <item>Dark theme</item>
+        <item>Light theme</item>
+        <item>Blue theme</item>
+        <item>Green theme</item>
+        <item>Magenta theme</item>
+        <item>Purple theme</item>
+        <item>Dark Classic theme</item>
+        <item>Light Classic theme</item>
+        <item>Soft Aqua theme</item>
+        <item>Soft Blue theme</item>
+        <item>Soft Red theme</item>
+        <item>Soft Orange theme</item>
+        <item>Soft Purple theme</item>
+        <item>Soft Graphite theme</item>
+        <item>Soft Fuchsia theme</item>
+        <item>Soft Ocean theme</item>
+        <item>Blue Pattern</item>
+        <item>Green Pattern</item>
+        <item>Orange Pattern</item>
+        <item>Pink Pattern</item>
+        <item>Northern Light</item>
+        <item>Sunset Fog</item>
+        <item>Early Morning</item>
+        <item>Purple Haze</item>
+        <item>Cracked Earth</item>
+        <item>Green Leaf</item>
+        <item>Canyon Rock</item>
+        <item>Water Wave</item>
+        <item>Mint Polygons</item>
+        <item>Tangerine Polygons</item>
+        <item>Peach Polygons</item>
+        <item>Lavender Polygons</item>
+        <item>Chameleon theme</item>
+        <item>Day/Night theme</item>
+        <item>Custom theme</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>DARK</item>
+        <item>LIGHT</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>MAGENTA</item>
+        <item>PURPLE</item>
+        <item>DARKCLASSIC</item>
+        <item>LIGHTCLASSIC</item>
+        <item>FANCYAQUA</item>
+        <item>FANCYBLUE</item>
+        <item>FANCYRED</item>
+        <item>FANCYORANGE</item>
+        <item>FANCYDARKPURPLE</item>
+        <item>FANCYGRAPHITE</item>
+        <item>FANCYDARKMAGENTA</item>
+        <item>FANCYDARKAQUA</item>
+        <item>RHOMBUSBLUE</item>
+        <item>RHOMBUSGREEN</item>
+        <item>RHOMBUSORANGE</item>
+        <item>RHOMBUSPINK</item>
+        <item>COLOURBLURGREEN</item>
+        <item>COLOURBLURNATURAL</item>
+        <item>COLOURBLURORANGE</item>
+        <item>COLOURBLURPURPLE</item>
+        <item>NATUREGROUND</item>
+        <item>NATURELEAF</item>
+        <item>NATUREROCK</item>
+        <item>NATUREWATER</item>
+        <item>GEOGREEN</item>
+        <item>GEOORANGE</item>
+        <item>GEOPINK</item>
+        <item>GEOPURPLE</item>
+        <item>CHAMELEON</item>
+        <item>DAYNIGHT</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <array name="theme_preview_images">
+        <item>@drawable/prefs_theme_icon_matdark</item>
+        <item>@drawable/prefs_theme_icon_matlight</item>
+        <item>@drawable/prefs_theme_icon_mat_blue</item>
+        <item>@drawable/prefs_theme_icon_mat_aqua</item>
+        <item>@drawable/prefs_theme_icon_mat_pink</item>
+        <item>@drawable/prefs_theme_icon_mat_viol</item>
+        <item>@drawable/prefs_theme_icon_classicdark</item>
+        <item>@drawable/prefs_theme_icon_classiclight</item>
+        <item>@drawable/prefs_theme_icon_light1</item>
+        <item>@drawable/prefs_theme_icon_light2</item>
+        <item>@drawable/prefs_theme_icon_light3</item>
+        <item>@drawable/prefs_theme_icon_light4</item>
+        <item>@drawable/prefs_theme_icon_dark1</item>
+        <item>@drawable/prefs_theme_icon_dark2</item>
+        <item>@drawable/prefs_theme_icon_dark3</item>
+        <item>@drawable/prefs_theme_icon_dark4</item>
+        <item>@drawable/prefs_theme_icon_rhom_blue</item>
+        <item>@drawable/prefs_theme_icon_rhom_green</item>
+        <item>@drawable/prefs_theme_icon_rhom_orange</item>
+        <item>@drawable/prefs_theme_icon_rhom_pink</item>
+        <item>@drawable/prefs_theme_icon_cblur_green</item>
+        <item>@drawable/prefs_theme_icon_cblur_natural</item>
+        <item>@drawable/prefs_theme_icon_cblur_orange</item>
+        <item>@drawable/prefs_theme_icon_cblur_purple</item>
+        <item>@drawable/prefs_theme_icon_nat_ground</item>
+        <item>@drawable/prefs_theme_icon_nat_leaf</item>
+        <item>@drawable/prefs_theme_icon_nat_rock</item>
+        <item>@drawable/prefs_theme_icon_nat_water</item>
+        <item>@drawable/prefs_theme_icon_geo_green</item>
+        <item>@drawable/prefs_theme_icon_geo_orange</item>
+        <item>@drawable/prefs_theme_icon_geo_pink</item>
+        <item>@drawable/prefs_theme_icon_geo_purple</item>
+        <item>@drawable/prefs_theme_icon_adaptive</item>
+        <item>@drawable/prefs_theme_icon_daynight</item>
+        <item>@drawable/prefs_theme_icon_customize</item>
+    </array>
+    <string-array name="keyboard_position_names">
+        <item>Normal</item>
+        <item>Compact Left</item>
+        <item>Compact Right</item>
+        <item>Floating</item>
+    </string-array>
+    <string-array name="keyboard_position_values">
+        <item>NORMAL</item>
+        <item>COMPACT_LEFT</item>
+        <item>COMPACT_RIGHT</item>
+        <item>FLOATING</item>
+    </string-array>
+    <array name="keyboard_position_preview_images">
+        <item>@drawable/keyboard_position_normal</item>
+        <item>@drawable/keyboard_position_left</item>
+        <item>@drawable/keyboard_position_right</item>
+        <item>@drawable/keyboard_position_float</item>
+    </array>
+    <string-array name="sound_set_names">
+        <item>Pock Pock (Default)</item>
+        <item>Soft Pop</item>
+        <item>Tap Tap</item>
+        <item>System Sounds</item>
+    </string-array>
+    <string-array name="sound_set_values">
+        <item>pockpock</item>
+        <item>softpop</item>
+        <item>taptap</item>
+        <item>system</item>
+    </string-array>
+    <string-array name="layout_names">
+        <item>QWERTY (Default)</item>
+        <item>QWERTZ</item>
+        <item>AZERTY</item>
+        <item>Alphabetical</item>
+        <item>Dvorak</item>
+        <item>Colemak</item>
+    </string-array>
+    <string-array name="layout_values">
+        <item>qwerty</item>
+        <item>qwertz</item>
+        <item>azerty</item>
+        <item>alpha</item>
+        <item>dvorak</item>
+        <item>colemak</item>
+    </string-array>
+    <string-array name="currency_names">
+        <item>Auto (Default)</item>
+        <item>US - $</item>
+        <item>UK - £</item>
+        <item>Euro - €</item>
+        <item>Yen/Yuan - ¥</item>
+        <item>Rupee - ₹</item>
+    </string-array>
+    <string-array name="currency_values">
+        <item>auto</item>
+        <item>us</item>
+        <item>uk</item>
+        <item>euro</item>
+        <item>yen</item>
+        <item>rupee</item>
+    </string-array>
+    <string-array name="next_word_predictions_names">
+        <item>Words and emoji</item>
+        <item>Word</item>
+        <item>Emoji</item>
+    </string-array>
+    <string-array name="next_word_predictions_values">
+        <item>word_emoji</item>
+        <item>word</item>
+        <item>emoji</item>
+    </string-array>
+</resources>

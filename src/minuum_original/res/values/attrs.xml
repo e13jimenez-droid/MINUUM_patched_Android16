@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_wheel_radius" format="dimension" />
+    <attr name="color_wheel_thickness" format="dimension" />
+    <attr name="color_center_radius" format="dimension" />
+    <attr name="color_center_halo_radius" format="dimension" />
+    <attr name="color_pointer_radius" format="dimension" />
+    <attr name="color_pointer_halo_radius" format="dimension" />
+    <attr name="bar_thickness" format="dimension" />
+    <attr name="bar_length" format="dimension" />
+    <attr name="bar_pointer_radius" format="dimension" />
+    <attr name="bar_pointer_halo_radius" format="dimension" />
+    <attr name="bar_orientation_horizontal" format="boolean" />
+    <attr name="adSize" format="string" />
+    <attr name="adSizes" format="string" />
+    <attr name="adUnitId" format="string" />
+    <attr name="imageAspectRatioAdjust">
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="mapType">
+        <enum name="none" value="0" />
+        <enum name="hybrid" value="4" />
+        <enum name="normal" value="1" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="liteMode" format="boolean" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+    <attr name="uiMapToolbar" format="boolean" />
+    <attr name="appTheme">
+        <enum name="holo_dark" value="0" />
+        <enum name="holo_light" value="1" />
+    </attr>
+    <attr name="environment">
+        <enum name="production" value="1" />
+        <enum name="sandbox" value="0" />
+        <enum name="strict_sandbox" value="2" />
+    </attr>
+    <attr name="fragmentStyle" format="reference" />
+    <attr name="fragmentMode">
+        <enum name="buyButton" value="1" />
+        <enum name="selectionDetails" value="2" />
+    </attr>
+    <attr name="buyButtonHeight" format="dimension">
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+    </attr>
+    <attr name="buyButtonWidth" format="dimension">
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+    </attr>
+    <attr name="buyButtonText">
+        <enum name="book_now" value="3" />
+        <enum name="buy_now" value="2" />
+        <enum name="buy_with_google" value="1" />
+        <enum name="donate_with_google" value="4" />
+    </attr>
+    <attr name="buyButtonAppearance">
+        <enum name="classic" value="1" />
+        <enum name="grayscale" value="2" />
+        <enum name="monochrome" value="3" />
+    </attr>
+    <attr name="maskedWalletDetailsTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsHeaderTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsButtonTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsButtonBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsLogoTextColor" format="color" />
+    <attr name="maskedWalletDetailsLogoImageType">
+        <enum name="classic" value="1" />
+        <enum name="monochrome" value="2" />
+    </attr>
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="vpiIconPageIndicatorStyle" format="reference" />
+    <attr name="vpiLinePageIndicatorStyle" format="reference" />
+    <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+    <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="snap" format="boolean" />
+    <attr name="strokeColor" format="color" />
+    <attr name="lineWidth" format="dimension" />
+    <attr name="gapWidth" format="dimension" />
+    <attr name="clipPadding" format="dimension" />
+    <attr name="footerColor" format="color" />
+    <attr name="footerLineHeight" format="dimension" />
+    <attr name="footerIndicatorStyle">
+        <enum name="none" value="0" />
+        <enum name="triangle" value="1" />
+        <enum name="underline" value="2" />
+    </attr>
+    <attr name="footerIndicatorHeight" format="dimension" />
+    <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+    <attr name="footerPadding" format="dimension" />
+    <attr name="linePosition">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="selectedBold" format="boolean" />
+    <attr name="titlePadding" format="dimension" />
+    <attr name="topPadding" format="dimension" />
+    <attr name="fades" format="boolean" />
+    <attr name="fadeDelay" format="integer" />
+    <attr name="fadeLength" format="integer" />
+    <attr name="minValue" format="integer" />
+    <attr name="maxValue" format="integer" />
+    <attr name="units" format="string" />
+    <attr name="entryImages" format="reference" />
+    <attr name="accent_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="extract_text_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="extract_text_font_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="extract_text_font_hint_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="keyboard_overall_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidate_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidate_row_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_row_bg" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidate_modeswitch_overlay" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidate_modeswitch_icon" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidate_divider_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_pressed_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_highlight_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_modifier_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_spacebar_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_spacebar_pressed_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_2D_shift_del_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_1D_shift_del_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="key_modifier_pressed_bg_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="highlight_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="icon_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_top_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_middle_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_bottom_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_secondary_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_spacebar_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_candidate_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_candidate_faded_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="font_candidate_highlight_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_primary_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_primary_color_shadow" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_highlight_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_highlight_color_shadow" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_secondary_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_font_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="zoomview_font_highlight_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_snippet_font_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="finger_shadow_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_snippet_tab_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_key_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_snippet_key_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bonus_snippet_key_pressed_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="no_corner_radius" format="dimension" />
+    <attr name="light_radius" format="dimension" />
+    <attr name="heavy_radius" format="dimension" />
+    <attr name="spacebar_vpadding" format="dimension" />
+    <attr name="mode_choices_button_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="options_button_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="extract_text_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="extract_text_edit_text_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="top_bar_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_row_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_key_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_togglebutton_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_key_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_key_secondary_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_key_overlay_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_disambig_selector_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_inner_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_text_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_text_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_score_style_a" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_score_style_b" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_score_style_c" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_lang_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="candidates_divider_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_view_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_view_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_key_modifier_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_key_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_key_secondary_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="primary_keyboard_key_overlay_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="current_lang_indicator_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_key_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_key_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_key_secondary_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="bottom_key_space_container_style" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+</resources>

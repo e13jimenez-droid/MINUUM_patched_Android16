@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/progress_bubble_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/progress_bubble_filled" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tutorial_bubble_filled" />
+    <ImageView android:id="@id/progress_bubble_hollow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tutorial_bubble_hollow" />
+    <ImageView android:id="@id/progress_bubble_check" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tutorial_bubble_check" />
+    <TextView android:gravity="center" android:id="@id/progress_bubble_number" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

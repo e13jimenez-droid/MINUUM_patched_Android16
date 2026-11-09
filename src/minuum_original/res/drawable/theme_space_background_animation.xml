@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/theme_space_0" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_1" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_10" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_11" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_12" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_13" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_14" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_15" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_16" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_17" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_18" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_19" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_2" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_3" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_4" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_5" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_6" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_7" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_8" />
+    <item android:duration="100" android:drawable="@drawable/theme_space_9" />
+</animation-list>

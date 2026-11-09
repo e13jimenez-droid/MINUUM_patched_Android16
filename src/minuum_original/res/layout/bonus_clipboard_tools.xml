@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/tools_select_all" android:src="@drawable/bonus_clipboard_selectall" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/tools_cut" android:src="@drawable/bonus_clipboard_cut" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/tools_copy" android:src="@drawable/bonus_clipboard_copy" style="?attr/bonus_key_style" />
+    <ImageButton android:id="@id/tools_paste" android:src="@drawable/bonus_clipboard_paste" style="?attr/bonus_key_style" />
+</LinearLayout>

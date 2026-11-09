@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/theme_chooser_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/theme_chooser_grid" android:paddingLeft="35.0dip" android:paddingTop="10.0dip" android:paddingRight="35.0dip" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:stretchMode="spacingWidth" android:columnWidth="65.0dip" android:numColumns="auto_fit" />
+    <RelativeLayout android:id="@id/show_keyboard_icon_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/show_keyboard_icon" android:padding="20.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/theme_chooser_show_hide" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>
